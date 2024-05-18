@@ -2,13 +2,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## In a word
 
-### stacks
+### Stacks
 
 - nextjs
 
 - shadcn
 
 - prisma - sqlite
+
+### Features
+
+- prisma - sqlite
+
+- i18n (coming soon)
 
 ## Getting Started
 
