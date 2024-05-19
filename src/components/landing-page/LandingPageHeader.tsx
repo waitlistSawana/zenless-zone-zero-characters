@@ -16,7 +16,7 @@ export function LandingPageHeader() {
   return (
     <header
       id="landing-header"
-      className="sticky z-50 top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6"
+      className="sticky top-0 z-50 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6"
     >
       {/* 移动端 */}
       <Sheet>
@@ -26,11 +26,11 @@ export function LandingPageHeader() {
             <span className="sr-only">Toggle Menu</span>
           </Button>
         </SheetTrigger>
-        <SheetContent side="left" className="sm:max-w-xs flex flex-col h-full">
+        <SheetContent side="left" className="flex h-full flex-col sm:max-w-xs">
           <nav className="grid gap-6 text-lg font-medium">
             <Link
               href="/"
-              className="flex items-center gap-2 font-semibold text-base"
+              className="flex items-center gap-2 text-base font-semibold"
             >
               <img
                 src="/favicon.ico"
@@ -72,10 +72,10 @@ export function LandingPageHeader() {
         </SheetContent>
       </Sheet>
       {/* 网页端 （原来是用sheet完成的吗） */}
-      <nav className="font-medium flex flex-row items-center gap-5 text-sm lg:gap-6">
+      <nav className="flex flex-row items-center gap-5 text-sm font-medium lg:gap-6">
         <Link
           href="#"
-          className="flex items-center gap-2 font-semibold text-base"
+          className="flex items-center gap-2 text-base font-semibold"
         >
           <img
             src="/favicon.ico"
@@ -110,7 +110,7 @@ export function LandingPageHeader() {
         </a> */}
       </nav>
       <div className="flex-1" />
-      <div className="hidden sm:flex gap-2">
+      <div className="hidden gap-2 sm:flex">
         <DarkModeToggle />
         <LocaleSelector />
       </div>

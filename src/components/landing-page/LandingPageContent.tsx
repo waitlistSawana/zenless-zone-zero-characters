@@ -4,13 +4,13 @@ import { Button } from "../ui/button";
 export default function LandingPageContent() {
   return (
     <MaxWidthWrapper>
-      <div className="ring-4 ring-zinc-200 dark:ring-black bg-white dark:bg-zinc-900 shadow-md min-h-[20vh] rounded-3xl">
-        <div className="max-w-screen-lg md:px-40 px-8 pt-8 pb-8 md:pb-10 md:pt-10 text-start">
-          <h2 className="md:text-3xl text-2xl font-bold md:mt-10 md:mb-2">
+      <div className="min-h-[20vh] rounded-3xl bg-white shadow-md ring-4 ring-zinc-200 dark:bg-zinc-900 dark:ring-black">
+        <div className="max-w-screen-lg px-8 pb-8 pt-8 text-start md:px-40 md:pb-10 md:pt-10">
+          <h2 className="text-2xl font-bold md:mb-2 md:mt-10 md:text-3xl">
             Table of content
           </h2>
-          <div className="md:mb-8 flex flex-row md:-ml-3 -ml-3">
-            <Button variant={'link'}>
+          <div className="-ml-3 flex flex-row md:-ml-3 md:mb-8">
+            <Button variant={"link"}>
               <p>Title First</p>
             </Button>
             <Button variant={"link"}>
@@ -21,7 +21,9 @@ export default function LandingPageContent() {
             </Button>
           </div>
 
-          <h2 className="md:text-5xl text-3xl font-bold md:mt-10 mt-6 mb-3 md:mb-8">Title First </h2>
+          <h2 className="mb-3 mt-6 text-3xl font-bold md:mb-8 md:mt-10 md:text-5xl">
+            Title First{" "}
+          </h2>
           <div className="flex flex-col md:mb-8 md:gap-3">
             <p>
               Embrace the minimalist approach with a one-page web application
@@ -32,7 +34,9 @@ export default function LandingPageContent() {
             </p>
           </div>
 
-          <h2 className="md:text-5xl text-3xl mt-6 font-bold mb-3 md:mt-10 md:mb-8">Title Second</h2>
+          <h2 className="mb-3 mt-6 text-3xl font-bold md:mb-8 md:mt-10 md:text-5xl">
+            Title Second
+          </h2>
           <div className="flex flex-col md:mb-8 md:gap-3">
             <p>
               Embrace the minimalist approach with a one-page web application
@@ -43,7 +47,9 @@ export default function LandingPageContent() {
             </p>
           </div>
 
-          <h2 className="md:text-5xl text-3xl mt-6 font-bold mb-3 md:mt-10 md:mb-8">Title Thirdth</h2>
+          <h2 className="mb-3 mt-6 text-3xl font-bold md:mb-8 md:mt-10 md:text-5xl">
+            Title Thirdth
+          </h2>
           <div className="flex flex-col md:mb-4 md:gap-3 ">
             <p>
               Embrace the minimalist approach with a one-page web application
