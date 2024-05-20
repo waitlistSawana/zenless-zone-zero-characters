@@ -37,7 +37,7 @@ export function LandingPageHeader() {
                 className="h-6 w-6 rounded-sm"
                 alt="favicon"
               />
-              <span className="">SaasterKit</span>
+              <span className="">OnePage</span>
             </Link>
             {/* <a
               href="#landing-features"
@@ -82,7 +82,7 @@ export function LandingPageHeader() {
             className="h-6 w-6 rounded-sm"
             alt="favicon"
           />
-          <span className="">SaasterKit</span>
+          <span className="">OnePage</span>
         </Link>
         {/* <a
           href="#landing-features"
