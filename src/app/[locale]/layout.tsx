@@ -1,18 +1,18 @@
-import { LocaleProvider } from '@/components/providers/locale-provider';
+import { LocaleProvider } from "@/components/providers/locale-provider";
 
 // Locale provider layout
 export default async function LocaleLayout({
-    children,
-    params: { locale = 'en' },
+  children,
+  params: { locale = "en" },
 }: Readonly<{
-    children: React.ReactNode;
-    params: {
-        locale: string;
-    };
+  children: React.ReactNode;
+  params: {
+    locale: string;
+  };
 }>) {
-    return (
-        <LocaleProvider locale={locale}>
-            <div className="w-full flex-1 flex flex-col z-0">{children}</div>
-        </LocaleProvider>
-    );
+  return (
+    <LocaleProvider locale={locale}>
+      <div className="z-0 flex w-full flex-1 flex-col">{children}</div>
+    </LocaleProvider>
+  );
 }

@@ -4,6 +4,8 @@ import "./globals.css";
 
 import { LocaleProvider } from "@/components/providers/locale-provider";
 import { ThemeProvider } from "@/components/providers/theme-provider";
+import { TooltipProviderComponent } from "@/components/providers/tooltip-provider";
+import Metrics from "@/components/metrics";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,16 +21,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
-      </body>
+      <TooltipProviderComponent>
+        <body className={inter.className}>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+          </ThemeProvider>
+          {process.env.NODE_ENV === "development" ? <></> : <Metrics />}
+        </body>
+      </TooltipProviderComponent>
     </html>
   );
 }
