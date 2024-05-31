@@ -9,6 +9,7 @@ import { PanelLeft } from "lucide-react";
 import Link from "next/link";
 
 import { LocaleSelector } from "../LocaleSelector";
+import Image from "next/image";
 
 export function LandingPageHeader() {
   const t = useI18n();
@@ -32,10 +33,12 @@ export function LandingPageHeader() {
               href="/"
               className="flex items-center gap-2 text-base font-semibold"
             >
-              <img
-                src="/favicon.ico"
+              <Image
+                src="/icon/vercel.svg"
                 className="h-6 w-6 rounded-sm"
                 alt="favicon"
+                width={24}
+                height={24}
               />
               <span className="">OnePage</span>
             </Link>
@@ -77,10 +80,12 @@ export function LandingPageHeader() {
           href="#"
           className="flex items-center gap-2 text-base font-semibold"
         >
-          <img
-            src="/favicon.ico"
+          <Image
+            src="/icon/next.svg"
             className="h-6 w-6 rounded-sm"
             alt="favicon"
+            width={24}
+            height={24}
           />
           <span className="">OnePage</span>
         </Link>
