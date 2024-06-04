@@ -1,4 +1,4 @@
-import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
+// import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 
 import { localeMiddleware } from "@/components/locales/locale-middleware";
 
@@ -7,7 +7,7 @@ import { localeMiddleware } from "@/components/locales/locale-middleware";
 
 // Clerk auth middleware
 // export default clerkMiddleware((auth, req) => { // 因为不需要clerk而注释掉了
-export default (req: any) => {
+const myMiddleware = (req: any) => {
   // Execute next-intl middleware before Clerk's auth middleware
   // Only execute the locale middleware if the request is for a page (not an API route) /api or /trpc
   if (req.url.match(/\/(api|trpc)(.*)/)) {
@@ -25,6 +25,8 @@ export default (req: any) => {
   // Execute the locale middleware
   return localeMiddleware(req);
 };
+
+export default myMiddleware;
 
 export const config = {
   matcher: ["/((?!.+\\.[\\w]+$|_next).*)", "/", "/(api|trpc)(.*)"],
