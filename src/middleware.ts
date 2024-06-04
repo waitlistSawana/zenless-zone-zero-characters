@@ -3,7 +3,7 @@ import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 import { localeMiddleware } from "@/components/locales/locale-middleware";
 
 // Routes that can be accessed while signed out - everything except /dashboard
-const isProtectedRoute = createRouteMatcher(["/dashboard(.*)"]);
+// const isProtectedRoute = createRouteMatcher(["/dashboard(.*)"]);
 
 // Clerk auth middleware
 // export default clerkMiddleware((auth, req) => { // 因为不需要clerk而注释掉了
