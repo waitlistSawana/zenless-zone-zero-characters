@@ -71,7 +71,7 @@ export default function LandingPageHero() {
       <h1 className="mx-auto my-3 max-w-screen-lg text-balance text-3xl font-bold drop-shadow-md md:my-6 md:text-6xl">
         {/* {t("landing.hero.title")} */}
         ChatTTS: Text-to-Speech Project for{" "}
-        <span className="from-iconBlue to-iconPink bg-gradient-to-r bg-clip-text text-transparent drop-shadow-lg">
+        <span className="bg-gradient-to-r from-iconBlue to-iconPink bg-clip-text text-transparent drop-shadow-lg">
           Realistic Conversation
         </span>
       </h1>
@@ -83,7 +83,7 @@ export default function LandingPageHero() {
         <Button
           onClick={handleCTAClickOnline}
           size={"lg"}
-          className="outline-3 animate-borderGradientMove from-iconBlue to-iconPink mt-4 rounded-full bg-gradient-to-r bg-[length:_400%_400%] py-6 text-lg outline outline-offset-2 outline-zinc-300 [animation-duration:_12s] dark:outline-zinc-700 md:mt-6"
+          className="outline-3 mt-4 animate-borderGradientMove rounded-full bg-gradient-to-r from-iconBlue to-iconPink bg-[length:_400%_400%] py-6 text-lg outline outline-offset-2 outline-zinc-300 [animation-duration:_12s] dark:outline-zinc-700 md:mt-6"
         >
           {t("landing.hero.cta_demo")}
         </Button>

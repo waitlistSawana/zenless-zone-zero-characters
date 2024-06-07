@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-import { LocaleProvider } from "@/components/providers/locale-provider";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { TooltipProviderComponent } from "@/components/providers/tooltip-provider";
+import { Toaster } from "@/components/ui/toaster";
 import Metrics from "@/components/metrics";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -31,6 +31,7 @@ export default function RootLayout({
           >
             {children}
           </ThemeProvider>
+          <Toaster />
           {process.env.NODE_ENV === "development" ? <></> : <Metrics />}
         </body>
       </TooltipProviderComponent>

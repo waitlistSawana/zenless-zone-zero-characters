@@ -16,6 +16,65 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 - i18n (coming soon)
 
+- trpc: 让前后端的交流不再是 any 而是自动识别好的 type (coming soon)
+
+### Set up Prisma
+
+- ### 新建数据库 (sqlite)
+
+1. 设置 model 
+
+通常手动更改 `src/db/prisma/schema.prisma`
+
+2. migration 创建数据库表格
+
+`npx prisma migrate dev --name MIGRATEION_NAME`
+
+它做了： 
+
+(1) 创建了一个新的 SQL 迁移文件 `prisma/migrations/*` 
+
+(2) 执行了新建的针对数据库的 SQL 迁移文件
+
+(3) 运行 `prisma generate`
+
+- ### 连接现有数据库
+
+1. 设置数据库 `datasource`
+
+2. Introspection 反省/审视
+
+通过命令更新我们的model，来自数据库已经有的模型
+
+`npx prisma db pull`
+
+检查命名是否符合 prisma 的哲学
+
+3. 创建 baseline 文件
+
+- 创建一个 migrations sql文件
+
+`mkdir -p prisma/migrations/0_init`
+
+- 用 prisma migrate diff 生成迁移文件到这个文件
+
+`npx prisma migrate diff --from-empty --to-schema-datamodel prisma/schema.prisma --script > prisma/migrations/0_init/migration.sql`
+
+- 检查弄下来的文件，标记为应用
+
+`npx prisma migrate resolve --applied 0_init`
+
+4. 生成数据库！
+
+`npx prisma generate`
+
+- ### 云端数据库
+
+上传到空的数据库，当设置好 `schema.prisma` 后：`npx prisma db push`
+
+在本地使用：`npx prisma generate`
+
+
 ## Getting Started
 
 First, run the development server:
