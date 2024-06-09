@@ -2,6 +2,9 @@ import React from "react";
 import MaxWidthWrapper from "../wrappers/MaxWidthWrapper";
 import Image from "next/image";
 import Link from "next/link";
+import NoteFooter from "./footer/NoteFooter";
+import FriendsLinks from "./footer/FriendsLinks";
+import LanguageFooter from "./footer/LanguageFooter";
 
 export default function LandingPageFooter() {
   return (
@@ -18,17 +21,20 @@ export default function LandingPageFooter() {
               />
             </Link>
           </div>
-          <div className="md:col-span-2">
-            <div className="font-serif">contact us</div>
+          <div className="mb-3 md:col-span-2">
+            <div className="mb-1.5 font-serif">Contact Us</div>
           </div>
-          <div className="md:col-span-2">
-            <div className="font-serif">products</div>
+          <div className="mb-3 md:col-span-2">
+            <div className="mb-1.5 font-serif">Products</div>
           </div>
-          <div className="md:col-span-2">
-            <div className="font-serif">Friends</div>
+          <div className="mb-3 md:col-span-2">
+            <div className="mb-1.5 font-serif">Friends</div>
+            <FriendsLinks />
           </div>
         </div>
       </MaxWidthWrapper>
+      <LanguageFooter />
+      <NoteFooter />
     </div>
   );
 }
