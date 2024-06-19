@@ -8,6 +8,10 @@ const myMiddleware = (req: any) => {
   if (req.url.match(/\/docs(.*)/)) {
     return;
   }
+  
+  if (req.url.match(/\/(sitemap)(.*)/)) {
+    return;
+  }
 
   return localeMiddleware(req);
 };

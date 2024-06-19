@@ -17,7 +17,7 @@ export function LandingPageHeader() {
   return (
     <header
       id="landing-header"
-      className="sticky top-0 z-50 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6"
+      className="sticky top-0 z-50 flex h-16 items-center gap-4 border-b bg-background/80  px-4 backdrop-blur-lg md:px-6"
     >
       {/* 移动端 */}
       <Sheet>
@@ -75,7 +75,7 @@ export function LandingPageHeader() {
         </SheetContent>
       </Sheet>
       {/* 网页端 （原来是用sheet完成的吗） */}
-      <nav className="flex flex-row items-center gap-5 text-sm font-medium lg:gap-6">
+      <nav className="sticky flex flex-row items-center gap-5 text-sm font-medium lg:gap-6">
         <Link
           href="#"
           className="flex items-center gap-2 text-base font-semibold"
