@@ -4,20 +4,26 @@ import { DarkModeToggle } from "@/components/DarkModeToggle";
 import { useI18n } from "@/components/locales/client";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-// import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import { PanelLeft } from "lucide-react";
 import Link from "next/link";
-
+import {
+  SignInButton,
+  SignUpButton,
+  UserButton,
+  useUser,
+  SignOutButton,
+} from "@clerk/nextjs";
 import { LocaleSelector } from "../LocaleSelector";
 import Image from "next/image";
 
 export function LandingPageHeader() {
   const t = useI18n();
+  const { user, isSignedIn } = useUser();
 
   return (
     <header
       id="landing-header"
-      className="sticky top-0 z-50 flex h-16 items-center gap-4 border-b bg-background/80  px-4 backdrop-blur-lg md:px-6"
+      className="sticky top-0 z-50 flex h-16 items-center gap-4 border-b bg-background/80 px-4 backdrop-blur-lg md:px-6"
     >
       {/* 移动端 */}
       <Sheet>
@@ -42,6 +48,18 @@ export function LandingPageHeader() {
               />
               <span className="">OnePage</span>
             </Link>
+            {isSignedIn ? (
+              <div className="flex items-center justify-between">
+                <UserButton />
+                <SignOutButton>
+                  <Button variant={"outline"}>sign-out</Button>
+                </SignOutButton>
+              </div>
+            ) : (
+              <SignInButton>
+                <Button variant={"outline"}>sign-in</Button>
+              </SignInButton>
+            )}
             {/* <a
               href="#landing-features"
               className="text-muted-foreground transition-colors hover:text-foreground"
@@ -118,6 +136,15 @@ export function LandingPageHeader() {
       <div className="hidden gap-2 sm:flex">
         <DarkModeToggle />
         <LocaleSelector />
+        {isSignedIn ? (
+          <div className="flex items-center justify-between">
+            <UserButton />
+          </div>
+        ) : (
+          <SignInButton>
+            <Button variant={"outline"}>sign-in</Button>
+          </SignInButton>
+        )}
       </div>
     </header>
   );

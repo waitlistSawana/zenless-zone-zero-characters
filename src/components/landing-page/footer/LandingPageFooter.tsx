@@ -1,10 +1,10 @@
 import React from "react";
-import MaxWidthWrapper from "../wrappers/MaxWidthWrapper";
+import MaxWidthWrapper from "../../wrappers/MaxWidthWrapper";
 import Image from "next/image";
 import Link from "next/link";
-import NoteFooter from "./footer/NoteFooter";
-import FriendsLinks from "./footer/FriendsLinks";
-import LanguageFooter from "./footer/LanguageFooter";
+import NoteFooter from "./NoteFooter";
+import FriendsLinks from "./FriendsLinks";
+import LanguageFooter from "./LanguageFooter";
 
 export default function LandingPageFooter() {
   return (
