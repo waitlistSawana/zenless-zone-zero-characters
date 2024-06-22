@@ -57,14 +57,14 @@ export default function LandingPageHowItWorks() {
 
   return (
     <div className="" id="how-it-works">
-      <MaxWidthWrapper className="mt-10 py-4  md:mt-16 md:pt-10">
+      <MaxWidthWrapper className="pb-4 pt-10 md:pt-10">
         <Heading2>{t("landing.how_it_works.title")}</Heading2>
         <p className="text-md mb-4 text-balance opacity-80 md:text-lg">
           {t("landing.how_it_works.description_local")}
         </p>
       </MaxWidthWrapper>
 
-      <div className="mb-10 mt-2 grid max-w-screen-2xl grid-cols-1 gap-4 px-2.5 md:mb-20 md:grid-cols-2 md:px-20 md:pb-10 xl:grid-cols-3">
+      <div className="grid max-w-screen-2xl grid-cols-1 gap-4 px-2.5 pb-10 pt-2 md:grid-cols-2 md:px-20 md:pb-10 md:pt-10 xl:grid-cols-3">
         {steps.map((s, i) => (
           <Card
             key={i}

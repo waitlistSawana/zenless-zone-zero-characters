@@ -16,43 +16,15 @@ export default {
     light: "Light",
     system: "System",
   },
-  // Alert dialog translations
-  alert_dialog: {
-    delete_element: {
-      title: "Are you absolutely sure?",
-      description: "This action cannot be undone.",
-      pending: "Deleting...",
-      success: "Deleted successfully",
-      error: "Failed to delete.",
-    },
-    save_element: {
-      pending: "Saving...",
-      success: "Saved successfully",
-      error: "Failed to save.",
-    },
-    cancel: "Cancel",
-    continue: "Continue",
-  },
   // Landing page translations
   landing: {
     hero: {
-      title: "ChatTTS: Text-to-Speech Project for Realistic Conversation",
-      subtitle:
-        "ChatTTS.Site - The Ultimate Guide to Using the Open-Source Text-to-Speech Project for Realistic Conversation Simulation",
-      description:
-        "Welcome to ChatTTS.Site – Your comprehensive resource for mastering ChatTTS, an innovative Open-Source Text-to-Speech project. Here, you will learn how to harness the power of ChatTTS to generate lifelike, dynamic voice dialogues for realistic conversation simulation. Whether you're a developer seeking to integrate advanced speech technology into your applications, an AI enthusiast, or a user keen on having human-like conversations driven by text inputs, this guide will walk you through every step, from getting started to advanced usage. Discover the future of conversational AI today with ChatTTS.",
+      title: "Demo Saas - save tons of time",
       tagline: "Your assistant, now with a voice - Discover ChatTTS.",
-      sub_tagline:
-        "No more silent chats. Bring life to your conversation with ChatTTS, connect and engage with interactive voice-enabled dialogue using just a click.",
-      cta_local: "Using Locally!",
-      cta_demo: "Start Free Online!",
-      small_note: "Available in English and Chinese",
-      badge: "Open Source",
     },
-
     features: {
-      title: "ChatTTS Features",
-      description: "Why ChatTTS",
+      title: "Features",
+      description: "Why our demo",
       items: [
         {
           title: "Realistic Text-to-Speech",
@@ -76,44 +48,6 @@ export default {
         },
       ],
     },
-
-    pricing: {
-      title: "Pricing",
-      description:
-        "Choose the plan that best suits your needs. All plans come with a set of pre-configured features to help you get started quickly.",
-      get_started: "Get Started",
-      features: "Features",
-      coming_soon: "Coming soon!",
-      most_popular: "Most Popular",
-      starter: {
-        title: "Starter",
-        price: "Free",
-        description:
-          "Pre-configured boilerplate code for common features to jump-start your app.",
-      },
-
-      pro: {
-        title: "Pro",
-        description: "For advanced projects that need extra power.",
-      },
-
-      all_features: {
-        feature_next: "Next.js 14 with app router",
-        feature_prisma: "Prisma ORM",
-        feature_clerk: "Clerk authentication",
-        feature_supabase: "Supabase integration",
-        feature_resend: "Resend integration",
-        feature_sentry: "Sentry integration",
-        feature_i18n: "i18n support",
-        feature_tailwind: "Tailwind & shadcn components",
-        feature_dashboard: "Dashboard template",
-        feature_landing: "Landing page template",
-        feature_openai: "OpenAI integration",
-        feature_lemon: "Lemon Squeezy integration",
-        feature_mdx: "MDX Documentation support",
-      },
-    },
-
     how_it_works: {
       title: "How ChatTTS Works",
       description_local:
@@ -158,7 +92,6 @@ export default {
         },
       },
     },
-
     faq: {
       title: "FAQs about ChatTTS",
       description:
@@ -210,17 +143,6 @@ export default {
         },
       ],
     },
-
-    waitlist: {
-      title: "Get Early Access",
-      description:
-        "Join our waitlist to get notified when we launch new features. We will never spam you.",
-      form: {
-        email: "Email Address",
-        join_waitlist: "Join Waitlist",
-      },
-    },
-
     nav: {
       features: "Features",
       pricing: "Pricing",

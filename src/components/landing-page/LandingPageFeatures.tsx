@@ -45,15 +45,15 @@ export default function LandingPageFeatures() {
   ];
 
   return (
-    <div className="bg-white dark:bg-black">
-      <MaxWidthWrapper className="mb-10 mt-10 py-4 md:mb-20 md:mt-20 md:py-20">
+    <div className="">
+      <MaxWidthWrapper className="mb-10 mt-10 py-4 md:mb-10 md:mt-10 md:py-20">
         <Heading2>{t("landing.features.title")}</Heading2>
         <p className="text-md mb-4 text-balance opacity-80 md:text-lg">
           {t("landing.features.description")}
         </p>
 
         {/* galary */}
-        <div className="grid h-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
+        <div className="grid h-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature, index) => (
             <Card
               key={index}

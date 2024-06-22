@@ -46,7 +46,7 @@ export default function LandingPageFAQ() {
   ];
 
   return (
-    <div className="bg-white py-10 text-center dark:bg-black md:py-20">
+    <div className="py-10 text-center md:py-10">
       <Heading2>{t("landing.faq.title")}</Heading2>
       <p className="text-md mx-auto mb-4 max-w-screen-md text-balance opacity-80 md:text-lg">
         {t("landing.faq.description")}
@@ -57,11 +57,13 @@ export default function LandingPageFAQ() {
           {faqs.map((f, i) => (
             <details
               key={i}
-              className="group rounded-lg shadow bg-zinc-50 dark:bg-zinc-900 p-6 [&_summary::-webkit-details-marker]:hidden"
+              className="group rounded-lg bg-zinc-50 p-6 shadow dark:bg-zinc-900 [&_summary::-webkit-details-marker]:hidden"
               open={i === 0}
             >
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-zinc-900 dark:text-zinc-50">
-                <h2 className="text-start text-xl dark:text-white font-medium">{f.title}</h2>
+                <h2 className="text-start text-xl font-medium dark:text-white">
+                  {f.title}
+                </h2>
 
                 <span className="relative size-5 shrink-0">
                   <svg
