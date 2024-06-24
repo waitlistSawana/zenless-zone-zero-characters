@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 import MarkdownProse from "../wrappers/MarkdownProse";
 
 const markdown =
-  "\n # there is markdown content \n\n asdfanskldnfaosdfnasdjfalksd";
+  "\n ## there is markdown content \n\n asdfanskldnfaosdfnasdjfalksd";
 
 export default function LandingPageContent() {
   return (

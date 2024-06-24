@@ -112,9 +112,9 @@ export default function LandingPageFeatures() {
               {featuresData.features.map((feature, index) => (
                 <div
                   key={index}
-                  className="relative mb-8 flex flex-col rounded-2xl border border-solid border-black p-8 [box-shadow:rgb(0,_0,_0)_9px_9px] lg:mb-4"
+                  className="relative mb-8 flex flex-col rounded-2xl border border-solid border-zinc-950 p-8 [box-shadow:rgb(0,_0,_0)_9px_9px] dark:border-zinc-50 dark:[box-shadow:rgb(192,_209,_255)_9px_9px] lg:mb-4"
                 >
-                  <div className="absolute -top-8 bottom-auto left-auto right-4 flex h-16 w-16 flex-col items-center justify-center rounded-full border border-solid border-[#9b9b9b] bg-white [box-shadow:rgb(0,_0,_0)_0px_5px] lg:right-8">
+                  <div className="border-[#9b9b9b absolute -top-8 bottom-auto left-auto right-4 flex h-16 w-16 flex-col items-center justify-center rounded-full border border-solid bg-white [box-shadow:rgb(0,_0,_0)_0px_5px] lg:right-8">
                     {feature.icon}
                     <div className="absolute z-0 h-8 w-8 rounded-full border border-[#c0d1ff] bg-[#c0d1ff]"></div>
                   </div>

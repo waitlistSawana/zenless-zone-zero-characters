@@ -61,9 +61,9 @@ export default function LandingPageFAQ() {
               open={i === 0}
             >
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-zinc-900 dark:text-zinc-50">
-                <h2 className="text-start text-xl font-medium dark:text-white">
+                <h3 className="text-start text-xl font-medium dark:text-white">
                   {f.title}
-                </h2>
+                </h3>
 
                 <span className="relative size-5 shrink-0">
                   <svg

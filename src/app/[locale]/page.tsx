@@ -6,6 +6,7 @@ import LandingPageFAQ from "@/components/landing-page/LandingPageFAQ";
 import LandingPageFeatures from "@/components/landing-page/LandingPageFeatures";
 import LandingpagePricing1 from "@/components/landing-page/LandingpagePricing1";
 import { Metadata } from "next";
+import LandingpageHowItWorks from "@/components/landing-page/LandingpageHowItWorks";
 
 export const metadata: Metadata = {
   alternates: {
@@ -21,6 +22,7 @@ export default function Home() {
     <div className="">
       <LandingPageHeader />
       <LandingPageHero />
+      <LandingpageHowItWorks />
       <LandingPageFeatures />
       <LandingpagePricing1 />
       <LandingPageFAQ />
