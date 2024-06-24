@@ -1,7 +1,9 @@
+import RippleLoader from "./loading/RippleLoader";
+
 export function Loading() {
-    return (
-        <div className="w-96 mx-auto h-96 flex justify-center items-center">
-            <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary" />
-        </div>
-    );
+  return (
+    <div className="mx-auto flex h-96 w-96 items-center justify-center">
+      <RippleLoader />
+    </div>
+  );
 }

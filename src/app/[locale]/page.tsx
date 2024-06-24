@@ -4,8 +4,17 @@ import LandingPageHero from "@/components/landing-page/LandingPageHero";
 import LandingPageFooter from "@/components/landing-page/footer/LandingPageFooter";
 import LandingPageFAQ from "@/components/landing-page/LandingPageFAQ";
 import LandingPageFeatures from "@/components/landing-page/LandingPageFeatures";
-import LandingPageHowItWorks from "@/components/landing-page/LandingPageHowItWorks";
+import LandingpagePricing1 from "@/components/landing-page/LandingpagePricing1";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  alternates: {
+    canonical: process.env.NEXT_PUBLIC_BASE_URL,
+    languages: {
+      "en-US": `${process.env.NEXT_PUBLIC_BASE_URL}/en`,
+    },
+  },
+};
 
 export default function Home() {
   return (
@@ -13,7 +22,7 @@ export default function Home() {
       <LandingPageHeader />
       <LandingPageHero />
       <LandingPageFeatures />
-      <LandingPageHowItWorks />
+      <LandingpagePricing1 />
       <LandingPageFAQ />
       <LandingPageContent />
       <LandingPageFooter />
