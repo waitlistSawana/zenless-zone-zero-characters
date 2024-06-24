@@ -59,7 +59,7 @@ export default function LandingpagePricing1() {
       </div>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:items-center md:gap-8">
         {/* Free Plan */}
-        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm sm:px-8 lg:p-12">
+        <div className="rounded-2xl border border-zinc-500 p-6 shadow-sm sm:px-8 lg:p-12">
           <div className="text-center">
             <h2 className="text-lg font-medium text-zinc-900">
               {pricingData.free.name}
@@ -161,7 +161,7 @@ export default function LandingpagePricing1() {
           </Link>
         </div>
         {/* Normal Plan */}
-        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm sm:px-8 lg:p-12">
+        <div className="rounded-2xl border border-zinc-500 p-6 shadow-sm sm:px-8 lg:p-12">
           <div className="text-center">
             <h2 className="text-lg font-medium text-zinc-900">
               {pricingData.starter.name}
