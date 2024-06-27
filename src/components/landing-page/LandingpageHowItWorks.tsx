@@ -6,32 +6,38 @@ import { useI18n } from "../locales/client";
 export default function LandingpageHowItWorks() {
   const t = useI18n();
   const howItWorksData = {
-    heading: "Get Started In 4 Easy Steps",
-    text: "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,purus sit amet luctus magna fringilla urna",
+    heading: t("landing.how_it_works.title"),
+    text: t("landing.how_it_works.text"),
     howItWorks: [
       {
-        id: 1,
-        title: "Find Component",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
+        id: t("landing.how_it_works.steps.s1.id"),
+        title: t("landing.how_it_works.steps.s1.title"),
+        description: t("landing.how_it_works.steps.s1.description"),
       },
       {
-        id: 2,
-        title: "Find Component",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
+        id: t("landing.how_it_works.steps.s2.id"),
+        title: t("landing.how_it_works.steps.s2.title"),
+        description: t("landing.how_it_works.steps.s2.description"),
       },
       {
-        id: 3,
-        title: "Find Component",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
+        id: t("landing.how_it_works.steps.s3.id"),
+        title: t("landing.how_it_works.steps.s3.title"),
+        description: t("landing.how_it_works.steps.s3.description"),
       },
       {
-        id: 4,
-        title: "Find Component",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
+        id: t("landing.how_it_works.steps.s4.id"),
+        title: t("landing.how_it_works.steps.s4.title"),
+        description: t("landing.how_it_works.steps.s4.description"),
+      },
+      {
+        id: t("landing.how_it_works.steps.s5.id"),
+        title: t("landing.how_it_works.steps.s5.title"),
+        description: t("landing.how_it_works.steps.s5.description"),
+      },
+      {
+        id: t("landing.how_it_works.steps.s6.id"),
+        title: t("landing.how_it_works.steps.s6.title"),
+        description: t("landing.how_it_works.steps.s6.description"),
       },
     ],
   };

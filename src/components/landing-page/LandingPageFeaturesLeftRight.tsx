@@ -13,21 +13,21 @@ export default function LandingPageFeaturesLeftRight() {
   const t = useI18n();
   const FeatureLandData = [
     {
-      heading: "Marketing Strategy",
-      text: "Character big eat half stuff if. Technology share hot later. Tough improve kid politics.",
+      heading: t("landing.features_leftright.items.feature1.heading"),
+      text: t("landing.features_leftright.items.feature1.text"),
       imageUrl:
         "https://assets.website-files.com/63904f663019b0d8edf8d57c/63915d1cb654acd795a72b12_magicpattern-ixxjruC7Gg4-unsplash.jpg",
-      imageAlt: "an demo image in left",
+      imageAlt: t("landing.features_leftright.items.feature1.image_alt"),
       imagePositon: "left",
       links: "#",
       backgroundClassName: "bg-zinc-100 dark:bg-zinc-900",
     },
     {
-      heading: "Getting Started",
-      text: "Answer four method rich fall everyone push. True remain training high ok head painting.",
+      heading: t("landing.features_leftright.items.feature2.heading"),
+      text: t("landing.features_leftright.items.feature2.text"),
       imageUrl:
         "https://assets.website-files.com/63904f663019b0d8edf8d57c/63915d1cb654acd795a72b12_magicpattern-ixxjruC7Gg4-unsplash.jpg",
-      imageAlt: "and demo image in right",
+      imageAlt: t("landing.features_leftright.items.feature2.image_alt"),
       imagePositon: "right",
       links: "#",
       backgroundClassName: "",

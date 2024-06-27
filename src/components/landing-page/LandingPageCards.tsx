@@ -7,38 +7,40 @@ import { Book } from "lucide-react";
 
 export default function LandingPageCards() {
   const t = useI18n();
-  const cardData = [
-    {
-      id: 1,
-      icon: <Book />,
-      heading: "Business Planning",
-      text: "Question want reality fund. Decision environment despite nothing.",
-    },
-    {
-      id: 2,
-      icon: <Book />,
-      heading: "Premium Support",
-      text: "Almost end push. Picture truth performance detail concern.",
-    },
-    {
-      id: 3,
-      icon: <Book />,
-      heading: "Consulting",
-      text: "Course smile middle road because about listen force.",
-    },
-  ];
+  const cardData = {
+    heading: t("landing.cards.heading"),
+    text: t("landing.cards.text"),
+    cards: [
+      {
+        id: 1,
+        heading: t("landing.cards.cards.card1.heading"),
+        text: t("landing.cards.cards.card1.text"),
+      },
+      {
+        id: 2,
+        heading: t("landing.cards.cards.card2.heading"),
+        text: t("landing.cards.cards.card2.text"),
+      },
+      {
+        id: 3,
+        heading: t("landing.cards.cards.card3.heading"),
+        text: t("landing.cards.cards.card3.text"),
+      },
+    ],
+  };
+
   return (
     <SectionWrapper backgroundClassName="bg-zinc-100 dark:bg-zinc-900">
       <MaxWidthWrapper>
         <SectionHeader
           level={2}
-          heading="Cards"
-          text="Apply should stuff quickly. Each born member name technology hot forget. Similar world far study woman."
+          heading={cardData.heading}
+          text={cardData.text}
         />
         <div className="container mx-auto px-6">
-          {cardData?.length && (
+          {cardData && (
             <div className="grid justify-center gap-20 pt-20 lg:grid-cols-3">
-              {cardData.map((card, index) => (
+              {cardData.cards.map((card, index) => (
                 <div key={index} className="max-w-sm text-center lg:max-w-none">
                   <h3 className="text-2xl font-semibold">{card.heading}</h3>
                   {card.text && (

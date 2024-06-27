@@ -1,35 +1,32 @@
-import React from "react";
-import { SectionWrapper } from "../wrappers/SectionWrapper";
+"use client";
 import SectionHeader from "../wrappers/SectionHeader";
-
-const FAQData = {
-  heading: "Frequently Asked Questions",
-  text: "Cupiditate reprehenderit dignissimos maxime distinctio quia iste. Eum aliquam nulla voluptatum iure.",
-  faqs: [
-    {
-      question: "Move weight here just either attorney?",
-      answer:
-        "Officier journal personnage maintenant. Métier arracher cou secours voler air. Maintenant parole prévenir creuser froid distinguer affaire rocher.",
-    },
-    {
-      question: "Pass role air campaign up gas service.",
-      answer:
-        "Time have local give cover mission. Throw where size size relationship. Her year wife. Stock type ten tough plant. Catch wear various. Section follow charge side member.",
-    },
-    {
-      question: "Move weight here just either attorney?",
-      answer:
-        "Officier journal personnage maintenant. Métier arracher cou secours voler air. Maintenant parole prévenir creuser froid distinguer affaire rocher.",
-    },
-    {
-      question: "Move weight here just either attorney?",
-      answer:
-        "Officier journal personnage maintenant. Métier arracher cou secours voler air. Maintenant parole prévenir creuser froid distinguer affaire rocher.",
-    },
-  ],
-};
+import { useI18n } from "../locales/client";
+import { SectionWrapper } from "../wrappers/SectionWrapper";
 
 export default function LandingPageFAQ2Col() {
+  const t = useI18n();
+  const FAQData = {
+    heading: t("landing.faq2col.heading"),
+    text: t("landing.faq2col.text"),
+    faqs: [
+      {
+        question: t("landing.faq2col.faqs.faq1.question"),
+        answer: t("landing.faq2col.faqs.faq1.answer"),
+      },
+      {
+        question: t("landing.faq2col.faqs.faq2.question"),
+        answer: t("landing.faq2col.faqs.faq2.answer"),
+      },
+      {
+        question: t("landing.faq2col.faqs.faq3.question"),
+        answer: t("landing.faq2col.faqs.faq3.answer"),
+      },
+      {
+        question: t("landing.faq2col.faqs.faq4.question"),
+        answer: t("landing.faq2col.faqs.faq4.answer"),
+      },
+    ],
+  };
   return (
     <SectionWrapper backgroundClassName="bg-zinc-100 dark:bg-zinc-900">
       <SectionHeader level={2} heading={FAQData.heading} text={FAQData.text} />

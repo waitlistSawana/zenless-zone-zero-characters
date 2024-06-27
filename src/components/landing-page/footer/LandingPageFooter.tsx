@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 import MaxWidthWrapper from "../../wrappers/MaxWidthWrapper";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,11 +6,13 @@ import NoteFooter from "./NoteFooter";
 import FriendsLinks from "./FriendsLinks";
 import LanguageFooter from "./LanguageFooter";
 import ProductLinks from "./ProductLinks";
+import { useI18n } from "@/components/locales/client";
 
 export default function LandingPageFooter() {
+  const t = useI18n();
   return (
-    <div className="mt-10 bg-zinc-50 dark:bg-black md:mt-20">
-      <MaxWidthWrapper className="mt-5 border-t-2 pb-5 md:mt-10 md:pb-10">
+    <div className="bg-zinc-50 dark:bg-black">
+      <MaxWidthWrapper className="border-t-2 pb-5 md:pb-10">
         <footer className="bg-transparent">
           <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
@@ -25,8 +27,7 @@ export default function LandingPageFooter() {
                 </div>
 
                 <p className="mt-4 max-w-xs text-start opacity-70">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
-                  non cupiditate quae nam molestias.
+                  {t("landing.footer.text")}
                 </p>
 
                 {/* Open social links */}

@@ -12,8 +12,8 @@ export default function LandingPageHeroDrupal() {
   const t = useI18n();
   const headerData = {
     level: 1,
-    heading: "Build Something Amazing",
-    text: "Must today firm from bag. Investment try cold a when capital. Everything wait person service.",
+    heading: t("landing.hero.title"),
+    text: t("landing.hero.tagline"),
   };
 
   return (
