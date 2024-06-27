@@ -10,7 +10,7 @@ const myMiddleware = (req: any) => {
   if (req.url.match(/\/docs(.*)/)) {
     return;
   }
-  
+
   if (req.url.match(/\/(sitemap)(.*)/)) {
     return;
   }
@@ -36,7 +36,6 @@ export default myMiddleware;
 
 //   return localeMiddleware(req);
 // });
-
 
 export const config = {
   matcher: ["/((?!.+\\.[\\w]+$|_next).*)", "/", "/(api|trpc)(.*)"],

@@ -17,8 +17,8 @@ import {
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "One Page WebApp",
-  description: "一个模板--制作合格的单页应用",
+  title: "starter landingpage blog",
+  description: "参考 https://next-example-marketing.vercel.app/ 绘制的landingpage",
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
+    // <ClerkProvider>
       <html lang="en">
         <TooltipProviderComponent>
           <body className={inter.className}>
@@ -44,6 +44,6 @@ export default function RootLayout({
           </body>
         </TooltipProviderComponent>
       </html>
-    </ClerkProvider>
+    // </ClerkProvider>
   );
 }

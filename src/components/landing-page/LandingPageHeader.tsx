@@ -6,19 +6,19 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { PanelLeft } from "lucide-react";
 import Link from "next/link";
-import {
-  SignInButton,
-  SignUpButton,
-  UserButton,
-  useUser,
-  SignOutButton,
-} from "@clerk/nextjs";
+// import {
+//   SignInButton,
+//   SignUpButton,
+//   UserButton,
+//   useUser,
+//   SignOutButton,
+// } from "@clerk/nextjs";
 import { LocaleSelector } from "../LocaleSelector";
 import Image from "next/image";
 
 export function LandingPageHeader() {
   const t = useI18n();
-  const { user, isSignedIn } = useUser();
+  // const { user, isSignedIn } = useUser();
 
   return (
     <header
@@ -34,7 +34,7 @@ export function LandingPageHeader() {
           </Button>
         </SheetTrigger>
         <SheetContent side="left" className="flex h-full flex-col sm:max-w-xs">
-          <nav className="grid gap-6 text-lg font-medium">
+          <nav className="gird gap-6 text-lg font-medium">
             <Link
               href="/"
               className="flex items-center gap-2 text-base font-semibold"
@@ -48,7 +48,7 @@ export function LandingPageHeader() {
               />
               <span className="">OnePage</span>
             </Link>
-            {isSignedIn ? (
+            {/* {isSignedIn ? (
               <div className="flex items-center justify-between">
                 <UserButton />
                 <SignOutButton>
@@ -59,7 +59,7 @@ export function LandingPageHeader() {
               <SignInButton>
                 <Button variant={"outline"}>sign-in</Button>
               </SignInButton>
-            )}
+            )} */}
             {/* <a
               href="#landing-features"
               className="text-muted-foreground transition-colors hover:text-foreground"
@@ -136,7 +136,7 @@ export function LandingPageHeader() {
       <div className="hidden gap-2 sm:flex">
         <DarkModeToggle />
         <LocaleSelector />
-        {isSignedIn ? (
+        {/* {isSignedIn ? (
           <div className="flex items-center justify-between">
             <UserButton />
           </div>
@@ -144,7 +144,7 @@ export function LandingPageHeader() {
           <SignInButton>
             <Button variant={"outline"}>sign-in</Button>
           </SignInButton>
-        )}
+        )} */}
       </div>
     </header>
   );

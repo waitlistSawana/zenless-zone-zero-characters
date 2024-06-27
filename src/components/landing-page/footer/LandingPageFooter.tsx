@@ -24,7 +24,7 @@ export default function LandingPageFooter() {
                   />
                 </div>
 
-                <p className="mt-4 max-w-xs text-zinc-500">
+                <p className="mt-4 max-w-xs text-start opacity-70">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
                   non cupiditate quae nam molestias.
                 </p>
@@ -36,7 +36,7 @@ export default function LandingPageFooter() {
                       href="#"
                       rel="noreferrer"
                       target="_blank"
-                      className="text-zinc-700 transition hover:opacity-75"
+                      className="transition hover:opacity-75"
                     >
                       <span className="sr-only">Facebook</span>
 
@@ -60,7 +60,7 @@ export default function LandingPageFooter() {
                       href="#"
                       rel="noreferrer"
                       target="_blank"
-                      className="text-zinc-700 transition hover:opacity-75"
+                      className="transition hover:opacity-75"
                     >
                       <span className="sr-only">Instagram</span>
 
@@ -84,7 +84,7 @@ export default function LandingPageFooter() {
                       href="#"
                       rel="noreferrer"
                       target="_blank"
-                      className="text-zinc-700 transition hover:opacity-75"
+                      className="transition hover:opacity-75"
                     >
                       <span className="sr-only">Twitter</span>
 
@@ -104,7 +104,7 @@ export default function LandingPageFooter() {
                       href="#"
                       rel="noreferrer"
                       target="_blank"
-                      className="text-zinc-700 transition hover:opacity-75"
+                      className="transition hover:opacity-75"
                     >
                       <span className="sr-only">GitHub</span>
 
@@ -128,7 +128,7 @@ export default function LandingPageFooter() {
                       href="#"
                       rel="noreferrer"
                       target="_blank"
-                      className="text-zinc-700 transition hover:opacity-75"
+                      className="transition hover:opacity-75"
                     >
                       <span className="sr-only">Dribbble</span>
 
@@ -154,7 +154,7 @@ export default function LandingPageFooter() {
                 <div></div>
                 <div></div>
                 <div>
-                  <p className="font-medium text-zinc-900">Products</p>
+                  <p className="font-medium">Products</p>
                   <ProductLinks />
                 </div>
               </div>

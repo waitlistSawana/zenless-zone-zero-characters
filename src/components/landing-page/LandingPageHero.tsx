@@ -11,7 +11,7 @@ export default function LandingPageHero() {
   const t = useI18n();
 
   return (
-    <section className="">
+    <section className="relative">
       {/* Container */}
       <div className="mx-auto w-full max-w-7xl px-5 py-5 md:px-10 md:py-10 lg:py-20">
         {/* Component */}

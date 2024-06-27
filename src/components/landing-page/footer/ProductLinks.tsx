@@ -12,10 +12,7 @@ export default function ProductLinks() {
     <ul className="mt-6 space-y-4 text-sm">
       {LinksData.map((link, index) => (
         <li key={index}>
-          <a
-            href={link.url}
-            className="text-zinc-700 transition hover:opacity-75"
-          >
+          <a href={link.url} className="opacity-90 transition hover:opacity-75">
             {link.name}
           </a>
         </li>
