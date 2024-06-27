@@ -1,12 +1,12 @@
 "use client";
 
-import MaxWidthWrapper from "../wrappers/MaxWidthWrapper";
-import { Button } from "../ui/button";
-import { useI18n } from "../locales/client";
+import MaxWidthWrapper from "../../wrappers/MaxWidthWrapper";
+import { Button } from "../../ui/button";
+import { useI18n } from "../../locales/client";
 import Link from "next/link";
 import { CornerUpRight, Github, LucideVegan } from "lucide-react";
-import NeubrutalismButton from "../ui/syntaxui/NeubrutalismButton";
-import SectionHeader from "../wrappers/SectionHeader";
+import NeubrutalismButton from "../../ui/syntaxui/NeubrutalismButton";
+import SectionHeader from "../../wrappers/SectionHeader";
 
 export default function LandingPageHeroDrupal() {
   const t = useI18n();

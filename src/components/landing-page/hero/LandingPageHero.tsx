@@ -1,11 +1,11 @@
 "use client";
 
-import MaxWidthWrapper from "../wrappers/MaxWidthWrapper";
-import { Button } from "../ui/button";
-import { useI18n } from "../locales/client";
+import MaxWidthWrapper from "../../wrappers/MaxWidthWrapper";
+import { Button } from "../../ui/button";
+import { useI18n } from "../../locales/client";
 import Link from "next/link";
 import { CornerUpRight, Github } from "lucide-react";
-import NeubrutalismButton from "../ui/syntaxui/NeubrutalismButton";
+import NeubrutalismButton from "../../ui/syntaxui/NeubrutalismButton";
 
 export default function LandingPageHero() {
   const t = useI18n();
@@ -21,38 +21,10 @@ export default function LandingPageHero() {
             <h1 className="mb-4 text-4xl font-bold md:text-6xl">
               {t("landing.hero.title")}
             </h1>
-            <p className="mb-6 max-w-[528px] text-xl text-zinc-500 md:mb-10 lg:mb-12">
+            <p className="mb-6 max-w-[528px] text-xl opacity-80 md:mb-10 lg:mb-12">
               {t("landing.hero.tagline")}
             </p>
             <NeubrutalismButton>Get Started</NeubrutalismButton>
-            {/* Customers Div */}
-            <div className="mb-4 flex w-full max-w-xs items-center">
-              <img
-                src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63905430069fb027f83abb71_Ellipse-3.jpg"
-                alt=""
-                className="inline-block h-12 w-12 rounded-full object-cover [box-shadow:rgb(0,_0,_0)_0px_6px]"
-              />
-              <img
-                src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63905435069fb009d43abbb1_Ellipse-2.jpg"
-                alt=""
-                className="relative -left-4 -z-[1] inline-block h-12 w-12 rounded-full object-cover [box-shadow:rgb(0,_0,_0)_0px_6px]"
-              />
-              <img
-                src="https://assets.website-files.com/63904f663019b0d8edf8d57c/6390542e809b5c72a0cdcb99_Ellipse.jpg"
-                alt=""
-                className="relative -left-8 -z-[2] inline-block h-12 w-12 rounded-full object-cover [box-shadow:rgb(0,_0,_0)_0px_6px]"
-              />
-              <img
-                src="https://assets.website-files.com/63904f663019b0d8edf8d57c/6390543797156ee437ef0425_Ellipse-1.jpg"
-                alt=""
-                className="relative -left-12 -z-[3] inline-block h-12 w-12 rounded-full object-cover [box-shadow:rgb(0,_0,_0)_0px_6px]"
-              />
-              <div className="relative bottom-0 left-[-80px] right-auto top-auto -z-[4] rounded-[29.25px] bg-[#1353fe] py-2 pl-10 pr-5 text-center text-white [box-shadow:rgb(0,_0,_0)_0px_6px]">
-                <p className="text-sm">
-                  <span className="font-bold">100k+ </span>Customers
-                </p>
-              </div>
-            </div>
           </div>
           {/* Image Div */}
           <div className="relative left-4 h-full max-h-[562px] w-[85%] overflow-visible md:left-0 md:w-[95%] lg:w-full">
