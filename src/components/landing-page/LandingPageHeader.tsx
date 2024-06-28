@@ -93,7 +93,7 @@ export function LandingPageHeader() {
         </SheetContent>
       </Sheet>
       {/* 网页端 （原来是用sheet完成的吗） */}
-      <nav className="sticky flex flex-row items-center gap-5 text-sm font-medium lg:gap-6">
+      <nav className="flex flex-row items-center gap-5 text-sm font-medium lg:gap-6">
         <Link
           href="#"
           className="flex items-center gap-2 text-base font-semibold"
@@ -107,11 +107,13 @@ export function LandingPageHeader() {
           />
           <span className="">OnePage</span>
         </Link>
+      </nav>
+      <nav className="mx-auto flex flex-row items-center gap-5 text-sm font-medium lg:gap-6">
         {/* <a
           href="#landing-features"
-          className="hidden sm:block text-muted-foreground transition-colors hover:text-foreground"
+          className="hidden text-muted-foreground transition-colors hover:text-foreground sm:block"
         >
-          {t("landing.nav.features")}
+          test
         </a> */}
         {/* <a
           href="#landing-pricing"
@@ -132,7 +134,7 @@ export function LandingPageHeader() {
           {t("landing.nav.docs")}
         </a> */}
       </nav>
-      <div className="flex-1" />
+      {/* <div className="flex-1" /> */}
       <div className="hidden gap-2 sm:flex">
         <DarkModeToggle />
         <LocaleSelector />
