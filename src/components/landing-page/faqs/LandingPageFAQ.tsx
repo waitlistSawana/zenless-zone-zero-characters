@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import { useI18n } from "../locales/client";
-import MaxWidthWrapper from "../wrappers/MaxWidthWrapper";
-import { Heading2 } from "../wrappers/LandingPageHeaders";
+import { useI18n } from "../../locales/client";
+import MaxWidthWrapper from "../../wrappers/MaxWidthWrapper";
+import { Heading2 } from "../../wrappers/LandingPageHeaders";
 
 export default function LandingPageFAQ() {
   const t = useI18n();

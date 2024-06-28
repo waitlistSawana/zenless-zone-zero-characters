@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { motion } from "framer-motion";
 
@@ -22,7 +22,7 @@ export default function RippleLoader() {
   };
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex min-h-[50vh] items-center justify-center">
       <div className="relative h-10 w-10">
         <motion.div
           className="absolute h-full w-full rounded-full bg-zinc-500 opacity-0"

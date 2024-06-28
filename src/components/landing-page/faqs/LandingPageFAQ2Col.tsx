@@ -1,7 +1,7 @@
 "use client";
-import SectionHeader from "../wrappers/SectionHeader";
-import { useI18n } from "../locales/client";
-import { SectionWrapper } from "../wrappers/SectionWrapper";
+import SectionHeader from "../../wrappers/SectionHeader";
+import { useI18n } from "../../locales/client";
+import SectionWrapper from "../../wrappers/SectionWrapper";
 
 export default function LandingPageFAQ2Col() {
   const t = useI18n();

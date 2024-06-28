@@ -1,16 +1,16 @@
 "use client";
 
 import React from "react";
-import MaxWidthWrapper from "../wrappers/MaxWidthWrapper";
-import { useI18n } from "../locales/client";
-import { Heading2 } from "../wrappers/LandingPageHeaders";
+import MaxWidthWrapper from "../../wrappers/MaxWidthWrapper";
+import { useI18n } from "../../locales/client";
+import { Heading2 } from "../../wrappers/LandingPageHeaders";
 import {
   Brain,
   GitPullRequest,
   Languages,
   MessageCircleMore,
 } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "../../ui/card";
 
 export default function LandingPageFeatures() {
   const t = useI18n();

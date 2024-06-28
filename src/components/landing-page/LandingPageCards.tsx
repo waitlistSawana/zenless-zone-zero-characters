@@ -1,7 +1,7 @@
 "use client";
 import MaxWidthWrapper from "../wrappers/MaxWidthWrapper";
 import SectionHeader from "../wrappers/SectionHeader";
-import { SectionWrapper } from "../wrappers/SectionWrapper";
+import SectionWrapper from "../wrappers/SectionWrapper";
 import { useI18n } from "../locales/client";
 import { Book } from "lucide-react";
 

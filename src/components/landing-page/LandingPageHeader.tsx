@@ -34,7 +34,7 @@ export function LandingPageHeader() {
           </Button>
         </SheetTrigger>
         <SheetContent side="left" className="flex h-full flex-col sm:max-w-xs">
-          <nav className="gird gap-6 text-lg font-medium">
+          <nav className="grid grid-cols-1 gap-6 text-lg font-medium">
             <Link
               href="/"
               className="flex items-center gap-2 text-base font-semibold"
@@ -60,12 +60,12 @@ export function LandingPageHeader() {
                 <Button variant={"outline"}>sign-in</Button>
               </SignInButton>
             )} */}
-            {/* <a
-              href="#landing-features"
+            <a
+              href="/blog"
               className="text-muted-foreground transition-colors hover:text-foreground"
             >
-              {t("landing.nav.features")}
-            </a> */}
+              {t("landing.nav.blog")}
+            </a>
             {/* <a
               href="#landing-pricing"
               className="text-muted-foreground transition-colors hover:text-foreground"
@@ -95,7 +95,7 @@ export function LandingPageHeader() {
       {/* 网页端 （原来是用sheet完成的吗） */}
       <nav className="flex flex-row items-center gap-5 text-sm font-medium lg:gap-6">
         <Link
-          href="#"
+          href="/"
           className="flex items-center gap-2 text-base font-semibold"
         >
           <Image
@@ -109,12 +109,12 @@ export function LandingPageHeader() {
         </Link>
       </nav>
       <nav className="mx-auto flex flex-row items-center gap-5 text-sm font-medium lg:gap-6">
-        {/* <a
-          href="#landing-features"
+        <a
+          href="/blog"
           className="hidden text-muted-foreground transition-colors hover:text-foreground sm:block"
         >
-          test
-        </a> */}
+          {t("landing.nav.blog")}
+        </a>
         {/* <a
           href="#landing-pricing"
           className="hidden sm:block text-muted-foreground transition-colors hover:text-foreground"

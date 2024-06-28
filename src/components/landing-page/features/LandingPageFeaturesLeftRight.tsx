@@ -1,12 +1,12 @@
 "use client";
-import { SectionWrapper } from "../wrappers/SectionWrapper";
-import MaxWidthWrapper from "../wrappers/MaxWidthWrapper";
+import SectionWrapper from "../../wrappers/SectionWrapper";
+import MaxWidthWrapper from "../../wrappers/MaxWidthWrapper";
 import { cn } from "@/lib/utils";
-import { useI18n } from "../locales/client";
+import { useI18n } from "../../locales/client";
 import { Heading } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 import { FeartureLandProps } from "@/lib/types";
 
 export default function LandingPageFeaturesLeftRight() {
@@ -36,7 +36,9 @@ export default function LandingPageFeaturesLeftRight() {
   return (
     <>
       {FeatureLandData.map((feature, index) => (
-        <FeatureLand feature={feature} key={index} />
+        <div key={index}>
+          <FeatureLand feature={feature} />
+        </div>
       ))}
     </>
   );

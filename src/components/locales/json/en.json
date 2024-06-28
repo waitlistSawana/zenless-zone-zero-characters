@@ -126,6 +126,15 @@
     },
     "footer": {
       "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate quae nam molestias."
+    },
+    "nav": {
+      "blog": "Blog"
+    }
+  },
+  "blog": {
+    "homepage": {
+      "h1": "Latest Articles.",
+      "text": "Our blogs and articles that created to help user understanding topic of website. Or just for seo"
     }
   }
 }

@@ -2,15 +2,15 @@ import { LandingPageHeader } from "@/components/landing-page/LandingPageHeader";
 import LandingPageContent from "@/components/landing-page/LandingPageContent";
 import LandingPageHero from "@/components/landing-page/hero/LandingPageHero";
 import LandingPageFooter from "@/components/landing-page/footer/LandingPageFooter";
-import LandingPageFAQ from "@/components/landing-page/LandingPageFAQ";
-import LandingPageFeatures from "@/components/landing-page/LandingPageFeatures";
+import LandingPageFAQ from "@/components/landing-page/faqs/LandingPageFAQ";
+import LandingPageFeatures from "@/components/landing-page/features/LandingPageFeatures";
 import LandingpagePricing1 from "@/components/landing-page/LandingpagePricing1";
 import { Metadata } from "next";
 import LandingpageHowItWorks from "@/components/landing-page/LandingpageHowItWorks";
 import LandingPageHeroDrupal from "@/components/landing-page/hero/LandingPageHeroDrupal";
 import LandingPageCards from "@/components/landing-page/LandingPageCards";
-import LandingPageFeaturesLeftRight from "@/components/landing-page/LandingPageFeaturesLeftRight";
-import LandingPageFAQ2Col from "@/components/landing-page/LandingPageFAQ2Col";
+import LandingPageFeaturesLeftRight from "@/components/landing-page/features/LandingPageFeaturesLeftRight";
+import LandingPageFAQ2Col from "@/components/landing-page/faqs/LandingPageFAQ2Col";
 
 export const metadata: Metadata = {
   alternates: {
