@@ -8,48 +8,28 @@ export default function LandingPageFAQ() {
   const t = useI18n();
   const faqs = [
     {
-      title: t("landing.faq.content.0.title"),
-      description: t("landing.faq.content.0.description"),
+      question: t("landing.faq2col.faqs.faq1.question"),
+      answer: t("landing.faq2col.faqs.faq1.answer"),
     },
     {
-      title: t("landing.faq.content.1.title"),
-      description: t("landing.faq.content.1.description"),
+      question: t("landing.faq2col.faqs.faq2.question"),
+      answer: t("landing.faq2col.faqs.faq2.answer"),
     },
     {
-      title: t("landing.faq.content.2.title"),
-      description: t("landing.faq.content.2.description"),
+      question: t("landing.faq2col.faqs.faq3.question"),
+      answer: t("landing.faq2col.faqs.faq3.answer"),
     },
     {
-      title: t("landing.faq.content.3.title"),
-      description: t("landing.faq.content.3.description"),
-    },
-    {
-      title: t("landing.faq.content.4.title"),
-      description: t("landing.faq.content.4.description"),
-    },
-    {
-      title: t("landing.faq.content.5.title"),
-      description: t("landing.faq.content.5.description"),
-    },
-    {
-      title: t("landing.faq.content.6.title"),
-      description: t("landing.faq.content.6.description"),
-    },
-    {
-      title: t("landing.faq.content.7.title"),
-      description: t("landing.faq.content.7.description"),
-    },
-    {
-      title: t("landing.faq.content.8.title"),
-      description: t("landing.faq.content.8.description"),
+      question: t("landing.faq2col.faqs.faq4.question"),
+      answer: t("landing.faq2col.faqs.faq4.answer"),
     },
   ];
 
   return (
     <div className="py-10 text-center md:py-10">
-      <Heading2>{t("landing.faq.title")}</Heading2>
+      <Heading2>{t("landing.faq2col.heading")}</Heading2>
       <p className="text-md mx-auto mb-4 max-w-screen-md text-balance opacity-80 md:text-lg">
-        {t("landing.faq.description")}
+        {t("landing.faq2col.text")}
       </p>
 
       <MaxWidthWrapper className="max-w-screen-lg">
@@ -62,7 +42,7 @@ export default function LandingPageFAQ() {
             >
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-zinc-900 dark:text-zinc-50">
                 <h3 className="text-start text-xl font-medium dark:text-white">
-                  {f.title}
+                  {f.question}
                 </h3>
 
                 <span className="relative size-5 shrink-0">
@@ -99,7 +79,7 @@ export default function LandingPageFAQ() {
               </summary>
 
               <p className="mt-4 text-start leading-relaxed text-zinc-700 dark:text-zinc-300">
-                {f.description}
+                {f.answer}
               </p>
             </details>
           ))}
