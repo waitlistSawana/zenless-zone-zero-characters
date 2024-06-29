@@ -11,6 +11,7 @@ import LandingPageHeroDrupal from "@/components/landing-page/hero/LandingPageHer
 import LandingPageCards from "@/components/landing-page/LandingPageCards";
 import LandingPageFeaturesLeftRight from "@/components/landing-page/features/LandingPageFeaturesLeftRight";
 import LandingPageFAQ2Col from "@/components/landing-page/faqs/LandingPageFAQ2Col";
+import LandingPageCTA from "@/components/landing-page/LandingPageCTA";
 
 export const metadata: Metadata = {
   alternates: {
@@ -33,6 +34,7 @@ export default function Home() {
       {/* <LandingPageFeatures /> */}
       {/* <LandingpagePricing1 /> */}
       {/* <LandingPageFAQ /> */}
+      <LandingPageCTA />
       <LandingPageFAQ2Col />
       {/* <LandingPageContent /> */}
       <LandingPageFooter />

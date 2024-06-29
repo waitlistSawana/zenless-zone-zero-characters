@@ -102,6 +102,11 @@
         }
       }
     },
+    "cta": {
+      "heading": "Latest Shirts",
+      "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore officia corporis quasi doloribus iure architecto quae voluptatum beatae excepturi dolores.",
+      "button": "Get Yours Today"
+    },
     "faq2col": {
       "heading": "Frequently Asked Questions",
       "text": "Cupiditate reprehenderit dignissimos maxime distinctio quia iste. Eum aliquam nulla voluptatum iure.",
