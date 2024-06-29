@@ -46,10 +46,52 @@ interface BreadcrumbTwoProps {
   };
 }
 
+// data
+type CharacterCardT = {
+  name: string;
+  headshotUrl: string;
+  destailLink: string;
+  star: string;
+  role: string;
+  party: string;
+  type: string;
+};
+type PartiesDataT = {
+  name: string;
+  iconUrl: string;
+};
+type characterTypesDataT = {
+  stars: { name: string; iconUrl: string }[];
+  types: {
+    name: string;
+    iconUrl: string;
+  }[];
+  attack: {
+    name: string;
+    iconUrl: string;
+  }[];
+};
+
+// Filter
+type FilterCategories = "stars" | "types" | "attacks" | "parties";
+interface ActiveFiltersT {
+  stars: string[];
+  types: string[];
+  attacks: string[];
+  parties: string[];
+}
+
 export type {
   SectionHeaderProps,
   LinksProps,
   FeartureLandProps,
   BlogCardProps,
   BreadcrumbTwoProps,
+  // data
+  CharacterCardT,
+  PartiesDataT,
+  characterTypesDataT,
+  // Filter
+  FilterCategories,
+  ActiveFiltersT,
 };

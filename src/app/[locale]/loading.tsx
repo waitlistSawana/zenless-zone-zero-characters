@@ -1,7 +1,7 @@
 "use client";
 
-import RippleLoader from "@/components/loading/RippleLoader";
+import { Loading } from "@/components/Loading";
 
 export default function LoadingPage() {
-  return <RippleLoader />;
+  return <Loading />;
 }

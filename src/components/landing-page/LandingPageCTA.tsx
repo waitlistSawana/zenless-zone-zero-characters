@@ -26,7 +26,7 @@ export default function LandingPageCTA() {
           <div className="mt-4 flex justify-center sm:mt-8 md:justify-start">
             <a
               href={CTAData.link}
-              className="inline-block rounded-full bg-indigo-600 px-12 py-3 text-start text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+              className="inline-block rounded-full bg-primary px-12 py-3 text-start text-sm font-medium text-zinc-50 transition hover:bg-primary/80 focus:outline-none focus:ring focus:ring-yellow-400"
             >
               {CTAData.button}
             </a>

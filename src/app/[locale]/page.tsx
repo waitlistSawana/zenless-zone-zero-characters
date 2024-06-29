@@ -12,6 +12,7 @@ import LandingPageCards from "@/components/landing-page/LandingPageCards";
 import LandingPageFeaturesLeftRight from "@/components/landing-page/features/LandingPageFeaturesLeftRight";
 import LandingPageFAQ2Col from "@/components/landing-page/faqs/LandingPageFAQ2Col";
 import LandingPageCTA from "@/components/landing-page/LandingPageCTA";
+import CharactersList from "@/components/Characters/CharactersList";
 
 export const metadata: Metadata = {
   alternates: {
@@ -26,8 +27,9 @@ export default function Home() {
   return (
     <div className="">
       <LandingPageHeader />
-      {/* <LandingPageHeroDrupal /> */}
-      <LandingPageHero />
+      <LandingPageHeroDrupal />
+      {/* <LandingPageHero /> */}
+      <CharactersList />
       <LandingPageCards />
       <LandingpageHowItWorks />
       <LandingPageFeaturesLeftRight />

@@ -25,7 +25,6 @@ export default function LandingPageHeroDrupal() {
           heading={headerData.heading}
           text={headerData.text}
         />
-        {/* <div>image</div> */}
       </div>
     </section>
   );

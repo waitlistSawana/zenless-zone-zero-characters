@@ -87,7 +87,7 @@ export function LandingPageHeader() {
           </nav>
           <div className="flex-1" />
           <div className="flex gap-4">
-            <DarkModeToggle />
+            {/* <DarkModeToggle /> */}
             <LocaleSelector />
           </div>
         </SheetContent>
@@ -136,7 +136,7 @@ export function LandingPageHeader() {
       </nav>
       {/* <div className="flex-1" /> */}
       <div className="hidden gap-2 sm:flex">
-        <DarkModeToggle />
+        {/* <DarkModeToggle /> */}
         <LocaleSelector />
         {/* {isSignedIn ? (
           <div className="flex items-center justify-between">

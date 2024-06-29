@@ -18,7 +18,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "starter landingpage blog",
-  description: "参考 https://next-example-marketing.vercel.app/ 绘制的landingpage",
+  description:
+    "参考 https://next-example-marketing.vercel.app/ 绘制的landingpage",
 };
 
 export default function RootLayout({
@@ -28,22 +29,22 @@ export default function RootLayout({
 }>) {
   return (
     // <ClerkProvider>
-      <html lang="en">
-        <TooltipProviderComponent>
-          <body className={inter.className}>
-            <ThemeProvider
-              attribute="class"
-              defaultTheme="system"
-              enableSystem
-              disableTransitionOnChange
-            >
-              {children}
-            </ThemeProvider>
-            <Toaster />
-            {process.env.NODE_ENV === "development" ? <></> : <Metrics />}
-          </body>
-        </TooltipProviderComponent>
-      </html>
+    <html lang="en">
+      <TooltipProviderComponent>
+        <body className={inter.className}>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+          </ThemeProvider>
+          <Toaster />
+          {process.env.NODE_ENV === "development" ? <></> : <Metrics />}
+        </body>
+      </TooltipProviderComponent>
+    </html>
     // </ClerkProvider>
   );
 }

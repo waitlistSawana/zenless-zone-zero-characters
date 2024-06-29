@@ -61,7 +61,7 @@ export default function LandingpageHowItWorks() {
               key={index}
               className="relative grid gap-4 rounded-[30px] border border-solid border-[#636262] px-8 pb-8 pt-16 md:px-10 md:pt-20"
             >
-              <div className="absolute -top-8 left-10 flex flex-col items-center justify-center rounded-xl border border-solid border-[#5481fb] bg-background px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px]">
+              <div className="absolute -top-8 left-10 flex flex-col items-center justify-center rounded-xl border border-solid border-primary bg-background px-8 py-5 [box-shadow:rgb(243,_255,_144)_4px_4px]">
                 <p className="text-xl font-bold md:text-2xl">{howItWorks.id}</p>
               </div>
               <h3 className="text-xl font-semibold">{howItWorks.title}</h3>

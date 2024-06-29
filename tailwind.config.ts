@@ -52,8 +52,12 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        iconPink: "#e81cff",
-        iconBlue: "#45caff",
+        customeColor: {
+          darkGreen: "#059212",
+          primaryGreen: "#06D001",
+          lightGreen: "#9BEC00",
+          yellowGreen: "#F3FF90",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
