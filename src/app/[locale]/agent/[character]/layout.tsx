@@ -1,7 +1,7 @@
 import { LandingPageHeader } from "@/components/landing-page/LandingPageHeader";
 import LandingPageFooter from "@/components/landing-page/footer/LandingPageFooter";
 
-export default function BlogLayout({
+export default function AgentLayout({
   children,
 }: {
   children: React.ReactNode;

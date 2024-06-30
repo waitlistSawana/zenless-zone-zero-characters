@@ -1,7 +1,7 @@
 import { LocaleProvider } from "@/components/providers/locale-provider";
 
 // Locale provider layout
-export default async function LocaleLayout({
+export default function LocaleLayout({
   children,
   params: { locale = "en" },
 }: Readonly<{
