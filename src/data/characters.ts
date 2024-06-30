@@ -1,32 +1,36 @@
 import { CharacterCardT } from "@/lib/types";
 import { PartiesDataT } from "@/lib/types";
 
+const characterBaseLink = "/agent";
+const characterImageBaseUrl = "/image/characters";
+const characterTypesBaseUrl = "/image/types";
+
 const characterCardsData: CharacterCardT[] = [
   {
     name: "Lucy",
-    headshotUrl: "/image/characters/lucy.png",
-    destailLink: "#",
-    star: "5",
+    headshotUrl: characterImageBaseUrl + "/lucy.png",
+    destailLink: characterBaseLink + "/lucy",
+    star: "s",
     role: "none",
     party: "none",
     type: "none",
   },
   {
     name: "Zhu Yuan",
-    headshotUrl: "/image/characters/zhu_yuan.png",
-    destailLink: "#",
-    star: "5",
-    role: "none",
+    headshotUrl: characterImageBaseUrl + "/zhu_yuan.png",
+    destailLink: characterBaseLink + "/zhu-yuan",
+    star: "s",
+    role: "Attack",
     party: "none",
     type: "none",
   },
   {
     name: "Koleda Belobog",
-    headshotUrl: "/image/characters/koleda_belobog.png",
-    destailLink: "#",
-    star: "5",
+    headshotUrl: characterImageBaseUrl + "/koleda_belobog.png",
+    destailLink: characterBaseLink + "/keleda-belobog",
+    star: "s",
     role: "none",
-    party: "none",
+    party: "Belobog Heavy Industries",
     type: "none",
   },
 ];
@@ -38,8 +42,7 @@ const partiesData: PartiesDataT[] = [
   },
   {
     name: "Criminal Investigation Special Response Team",
-    iconUrl:
-      "/image/parties/criminal_investigation_special_response_team.png",
+    iconUrl: "/image/parties/criminal_investigation_special_response_team.png",
   },
   {
     name: "Cunning Hares AKA Gentle House",
@@ -108,6 +111,28 @@ const characterTypesData = {
     {
       name: "Strike",
       iconUrl: "/image/types/strike.png",
+    },
+  ],
+  roles: [
+    {
+      name: "Attack",
+      iconUrl: characterTypesBaseUrl + "/attack.png",
+    },
+    {
+      name: "Stun",
+      iconUrl: characterTypesBaseUrl + "/stun.png",
+    },
+    {
+      name: "Anomaly",
+      iconUrl: characterTypesBaseUrl + "/anomaly.png",
+    },
+    {
+      name: "Defense",
+      iconUrl: characterTypesBaseUrl + "/defense.png",
+    },
+    {
+      name: "Support",
+      iconUrl: characterTypesBaseUrl + "/support.png",
     },
   ],
 };

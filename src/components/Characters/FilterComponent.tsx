@@ -6,12 +6,13 @@ import Image from "next/image";
 import { useState, useCallback, useEffect } from "react";
 import { characterTypesDataT } from "@/lib/types";
 
-type FilterCategories = "stars" | "types" | "attacks" | "parties";
+type FilterCategories = "stars" | "types" | "attacks" | "parties" | "roles";
 interface ActiveFiltersT {
   stars: string[];
   types: string[];
   attacks: string[];
   parties: string[];
+  roles: string[];
 }
 
 export default function FilterComponent({
@@ -24,6 +25,7 @@ export default function FilterComponent({
     types: [],
     attacks: [],
     parties: [],
+    roles: [],
   });
 
   const toggleFilter = useCallback(
@@ -67,7 +69,7 @@ export default function FilterComponent({
             toggleFilter(category, item.name);
           }}
         >
-          <Image src={item.iconUrl} alt={item.name} width={80} height={80} />
+          <Image src={item.iconUrl} alt={item.name} width={120} height={120} />
         </Button>
       ));
     },
@@ -87,7 +89,7 @@ export default function FilterComponent({
         </div>
         {/* Attack */}
         <div className="flex flex-wrap justify-center gap-1 p-1">
-          {renderButtons(characterTypesData.attack, "attacks")}
+          {renderButtons(characterTypesData.roles, "roles")}
         </div>
         {/* Parties */}
         <div className="flex flex-wrap justify-center gap-1 p-1">
