@@ -12,27 +12,27 @@ import { partiesData } from "@/data/characters";
 import { characterTypesData } from "@/data/characters";
 import Link from "next/link";
 
-const handleFilterData = (
-  data: CharacterCardT[],
-  filter: any,
-): CharacterCardT[] => {
-  const { parties = [], roles = [], stars = [], types = [] } = filter;
-
-  return data.filter((character) => {
-    const matchParty =
-      parties.length === 0 || parties.includes(character.party);
-    const matchType = types.length === 0 || types.includes(character.type);
-    const matchRole = roles.length === 0 || roles.includes(character.role);
-    const matchStar = stars.length === 0 || stars.includes(character.star);
-
-    return matchParty && matchType && matchRole && matchStar;
-  });
-};
-
 export default function CharactersList() {
   const [activeFilters, setActiveFilters] = useState<ActiveFiltersT>();
   const [filteredCharacters, setFilteredCharacters] =
     useState<CharacterCardT[]>();
+
+  const handleFilterData = (
+    data: CharacterCardT[],
+    filter: any,
+  ): CharacterCardT[] => {
+    const { parties = [], roles = [], stars = [], types = [] } = filter;
+
+    return data.filter((character) => {
+      const matchParty =
+        parties.length === 0 || parties.includes(character.party);
+      const matchType = types.length === 0 || types.includes(character.type);
+      const matchRole = roles.length === 0 || roles.includes(character.role);
+      const matchStar = stars.length === 0 || stars.includes(character.star);
+
+      return matchParty && matchType && matchRole && matchStar;
+    });
+  };
 
   const allFilters = {
     stars: characterTypesData.stars.map((item) => item.name),
