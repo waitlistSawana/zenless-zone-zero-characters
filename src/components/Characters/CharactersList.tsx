@@ -10,6 +10,7 @@ import { useEffect, useMemo, useState } from "react";
 import { characterCardsData } from "@/data/characters";
 import { partiesData } from "@/data/characters";
 import { characterTypesData } from "@/data/characters";
+import Link from "next/link";
 
 export default function CharactersList() {
   const [activeFilters, setActiveFilters] = useState<ActiveFiltersT>();
@@ -36,6 +37,12 @@ export default function CharactersList() {
     return activeFilters;
   }, [activeFilters]);
 
+  // 筛选展示的内容
+  const filteredCharacters = useMemo(() => {
+    console.log(filters)
+    return characterCardsData;
+  }, [filters]);
+
   return (
     <SectionWrapper className="bg-zinc-800">
       <MaxWidthWrapper className="max-w-screen-xl">
@@ -48,9 +55,14 @@ export default function CharactersList() {
         {/* Characters List */}
         <div className="my-4 rounded-3xl bg-zinc-700 p-4 sm:p-8 lg:p-12">
           <div className="flex flex-wrap justify-center gap-1">
-            {characterCardsData.map((character, index) => (
-              <div key={index} className="reletive">
-                <HeadshotCardWrapper>
+            {filteredCharacters.map((character, index) => (
+              <Link
+                key={index}
+                className="reletive"
+                href={character.destailLink}
+                target="_blank"
+              >
+                <HeadshotCardWrapper star={character.star}>
                   <Image
                     src={character.headshotUrl}
                     alt={character.name + "headshot"}
@@ -58,7 +70,7 @@ export default function CharactersList() {
                     height={150}
                   />
                 </HeadshotCardWrapper>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

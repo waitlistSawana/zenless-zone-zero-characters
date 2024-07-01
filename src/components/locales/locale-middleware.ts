@@ -11,7 +11,7 @@ export const LOCALES = [
 const I18nMiddleware = createI18nMiddleware({
   locales: LOCALES,
   defaultLocale: "en",
-  urlMappingStrategy: "rewrite",
+  urlMappingStrategy: "rewriteDefault",
 });
 
 export function localeMiddleware(request: NextRequest) {

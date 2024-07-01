@@ -1,13 +1,18 @@
-"use client"
+"use client";
 
-import { useI18n } from "../locales/client"
+import { CharacterCardT } from "@/lib/types";
+import { useI18n } from "../locales/client";
 
-export default function AgentIntroduce({ characterName }: { characterName: string }) {
-  const t = useI18n()
+export default function AgentIntroduce({
+  characterData,
+}: {
+  characterData: CharacterCardT;
+}) {
+  const t = useI18n();
   return (
     <div>
-      <div>Indtroduce {characterName}</div>
+      <div>Indtroduce {characterData.name}</div>
       <p>content of introduce</p>
     </div>
-  )
+  );
 }

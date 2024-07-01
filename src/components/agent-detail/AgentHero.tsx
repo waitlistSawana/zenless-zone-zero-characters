@@ -4,11 +4,12 @@ import { useI18n } from "../locales/client";
 import { Button } from "../ui/button";
 import MaxWidthWrapper from "../wrappers/MaxWidthWrapper";
 import Image from "next/image";
+import { CharacterCardT } from "@/lib/types";
 
 export default function AgentHero({
-  characterName,
+  characterData,
 }: {
-  characterName: string;
+  characterData: CharacterCardT;
 }) {
   const t = useI18n();
 
@@ -19,7 +20,7 @@ export default function AgentHero({
           {/* heading section */}
           <div className="flex items-end py-3">
             <h1 className="w-full text-center text-7xl font-bold md:text-start">
-              Lucy
+              {characterData.name}
             </h1>
           </div>
           {/* introduce */}
@@ -41,7 +42,7 @@ export default function AgentHero({
         {/* character image */}
         <div className="flex justify-center md:justify-end">
           <Image
-            src={"/image/characters/lucy.png"}
+            src={characterData.headshotUrl}
             alt="lucy full image with name"
             width={1600}
             height={1600}
