@@ -82,20 +82,20 @@ export default function CharactersList() {
             {filteredCharacters &&
               filteredCharacters.map((character, index) => (
                 <div key={index}>
-                  <Link
+                  {/* <Link
                     className="reletive"
                     href={character.destailLink}
                     target="_blank"
-                  >
-                    <HeadshotCardWrapper star={character.star}>
-                      <Image
-                        src={character.headshotUrl}
-                        alt={character.name + "headshot"}
-                        width={150}
-                        height={150}
-                      />
-                    </HeadshotCardWrapper>
-                  </Link>
+                  > */}
+                  <HeadshotCardWrapper star={character.star}>
+                    <Image
+                      src={character.headshotUrl}
+                      alt={character.name + "headshot"}
+                      width={150}
+                      height={150}
+                    />
+                  </HeadshotCardWrapper>
+                  {/* </Link> */}
                 </div>
               ))}
           </div>
