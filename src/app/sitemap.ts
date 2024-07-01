@@ -10,17 +10,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 1,
     },
-    {
-      url: `${baseUrl}/page1`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/page2`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
+    // {
+    //   url: `${baseUrl}/page1`,
+    //   lastModified: new Date(),
+    //   changeFrequency: "monthly",
+    //   priority: 0.8,
+    // },
+    // {
+    //   url: `${baseUrl}/page2`,
+    //   lastModified: new Date(),
+    //   changeFrequency: "weekly",
+    //   priority: 0.8,
+    // },
   ];
 }

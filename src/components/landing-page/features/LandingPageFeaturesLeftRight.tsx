@@ -9,14 +9,15 @@ import Link from "next/link";
 import { Button } from "../../ui/button";
 import { FeartureLandProps } from "@/lib/types";
 
+const imageUrlBase = "/image/banner_backgrounds/";
+
 export default function LandingPageFeaturesLeftRight() {
   const t = useI18n();
   const FeatureLandData = [
     {
       heading: t("landing.features_leftright.items.feature1.heading"),
       text: t("landing.features_leftright.items.feature1.text"),
-      imageUrl:
-        "https://assets.website-files.com/63904f663019b0d8edf8d57c/63915d1cb654acd795a72b12_magicpattern-ixxjruC7Gg4-unsplash.jpg",
+      imageUrl: imageUrlBase + "bg_belobog_heavy_industries.png",
       imageAlt: t("landing.features_leftright.items.feature1.image_alt"),
       imagePositon: "left",
       links: "#",
@@ -25,8 +26,7 @@ export default function LandingPageFeaturesLeftRight() {
     {
       heading: t("landing.features_leftright.items.feature2.heading"),
       text: t("landing.features_leftright.items.feature2.text"),
-      imageUrl:
-        "https://assets.website-files.com/63904f663019b0d8edf8d57c/63915d1cb654acd795a72b12_magicpattern-ixxjruC7Gg4-unsplash.jpg",
+      imageUrl: imageUrlBase + "bg_sons_of_calydon.png",
       imageAlt: t("landing.features_leftright.items.feature2.image_alt"),
       imagePositon: "right",
       links: "#",
@@ -48,7 +48,7 @@ const FeatureLand = ({ feature }: { feature: FeartureLandProps }) => {
   return (
     <SectionWrapper backgroundClassName={feature.backgroundClassName}>
       <div className="container mx-auto px-6">
-        <div className="grid items-center gap-8 md:grid-flow-col-dense md:grid-cols-2 md:gap-12">
+        <div className="grid items-center justify-center gap-8 md:grid-flow-col-dense md:grid-cols-2 md:gap-12">
           {feature && (
             <div
               className={cn(

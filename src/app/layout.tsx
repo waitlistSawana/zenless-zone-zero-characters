@@ -17,9 +17,9 @@ import {
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "starter landingpage blog",
+  title: "Zenless Zero Zone Characters - Character List & Banner",
   description:
-    "参考 https://next-example-marketing.vercel.app/ 绘制的landingpage",
+    "Discover Zenless Zero Zone characters! Explore abilities, backstories, and roles. Stay updated on releases and strategies. Perfect for new and seasoned players.",
 };
 
 export default function RootLayout({

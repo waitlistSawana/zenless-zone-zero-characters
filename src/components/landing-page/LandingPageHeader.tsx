@@ -42,7 +42,7 @@ export function LandingPageHeader() {
               className="flex items-center gap-2 text-base font-semibold"
             >
               <Image
-                src="/icon/vercel.svg"
+                src="/icon/icon.png"
                 className="h-6 w-6 rounded-sm"
                 alt="favicon"
                 width={24}
@@ -101,13 +101,13 @@ export function LandingPageHeader() {
           className="flex items-center gap-2 text-base font-semibold"
         >
           <Image
-            src="/icon/next.svg"
-            className="h-6 w-6 rounded-sm"
+            src="/icon/icon.png"
+            className="size-10 rounded-sm"
             alt="favicon"
-            width={24}
-            height={24}
+            width={100}
+            height={100}
           />
-          <span className="">{websiteName}</span>
+          <span className="font-serif">{websiteName}</span>
         </Link>
       </nav>
       <nav className="mx-auto flex flex-row items-center gap-5 text-sm font-medium lg:gap-6">

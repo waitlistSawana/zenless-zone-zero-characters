@@ -64,7 +64,7 @@ export default function FilterComponent({
           key={index}
           variant={"ghost"}
           size={"icon"}
-          className={`size-16 ${category === "parties" ? "" : "p-3"} ${isActive(category, item.name) ? "bg-zinc-800/90" : ""}`}
+          className={`size-16 hover:bg-zinc-900/90 ${category === "parties" ? "" : "p-3"} ${isActive(category, item.name) ? "bg-zinc-900/90" : ""}`}
           onClick={() => {
             toggleFilter(category, item.name);
           }}
@@ -77,7 +77,7 @@ export default function FilterComponent({
   );
 
   return (
-    <div className="my-4 rounded-3xl bg-zinc-700 p-5">
+    <div className="my-4 rounded-3xl bg-zinc-800 p-5">
       <div className="flex flex-wrap items-center justify-around">
         {/* Stars */}
         <div className="flex flex-wrap justify-center gap-1 p-1">
