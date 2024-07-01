@@ -49,6 +49,7 @@ interface BreadcrumbTwoProps {
 // data
 type CharacterCardT = {
   name: string;
+  introduction: string;
   headshotUrl: string;
   destailLink: string;
   star: string;

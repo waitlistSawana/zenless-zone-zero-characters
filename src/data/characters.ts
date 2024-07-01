@@ -8,6 +8,7 @@ const characterTypesBaseUrl = "/image/types";
 const characterCardsData: CharacterCardT[] = [
   {
     name: "Lucy",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/lucy.png",
     destailLink: characterBaseLink + "/lucy",
     star: "s",
@@ -17,6 +18,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Zhu Yuan",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/zhu_yuan.png",
     destailLink: characterBaseLink + "/zhu-yuan",
     star: "s",
@@ -26,8 +28,9 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Koleda Belobog",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/koleda_belobog.png",
-    destailLink: characterBaseLink + "/keleda-belobog",
+    destailLink: characterBaseLink + "/koleda-belobog",
     star: "s",
     role: "Stun",
     party: "Belobog Heavy Industries",
@@ -35,6 +38,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Ellen Joe",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/ellen_joe.png",
     destailLink: characterBaseLink + "/ellen-joe",
     star: "s",
@@ -44,6 +48,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Alexandrina",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/alexandrina.png",
     destailLink: characterBaseLink + "/alexandrina",
     star: "s",
@@ -53,8 +58,9 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Von Lycaon",
-    headshotUrl: characterImageBaseUrl + "/von_lycanon.png",
-    destailLink: characterBaseLink + "/von-lycanon",
+    introduction:"",
+    headshotUrl: characterImageBaseUrl + "/von_lycaon.png",
+    destailLink: characterBaseLink + "/von-lycaon",
     star: "s",
     role: "Ice",
     party: "Victoria Housekeeping Co.",
@@ -62,6 +68,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Corin Wickes",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/corin_wickes.png",
     destailLink: characterBaseLink + "/corin-wickes",
     star: "a",
@@ -71,6 +78,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Nekomiya Mana",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/nekomiya_mana.png",
     destailLink: characterBaseLink + "/nekomiya-mana",
     star: "s",
@@ -80,6 +88,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Billy Kid",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/billy_kid.png",
     destailLink: characterBaseLink + "/billy-kid",
     star: "a",
@@ -89,8 +98,9 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Nicole Demara",
-    headshotUrl: characterImageBaseUrl + "/nekomiya_mana.png",
-    destailLink: characterBaseLink + "/nekomiya-mana",
+    introduction:"",
+    headshotUrl: characterImageBaseUrl + "/nicole_demara.png",
+    destailLink: characterBaseLink + "/nicole-demara",
     star: "a",
     role: "Support",
     party: "Cunning Hares AKA Gentle House",
@@ -98,6 +108,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Anby Demara",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/anby_demara.png",
     destailLink: characterBaseLink + "/anby-demara",
     star: "a",
@@ -107,6 +118,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Piper Wheel",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/piper_wheel.png",
     destailLink: characterBaseLink + "/piper-wheel",
     star: "a",
@@ -116,6 +128,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Lucy",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/lucy.png",
     destailLink: characterBaseLink + "/lucy",
     star: "s",
@@ -125,6 +138,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Hoshimi Miyabi",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/hoshimi_miyabi.png",
     destailLink: characterBaseLink + "/hoshimi-miyabi",
     star: "s",
@@ -134,6 +148,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Soukaku",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/soukaku.png",
     destailLink: characterBaseLink + "/soukaku",
     star: "a",
@@ -143,6 +158,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Grace Howard",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/grace_howard.png",
     destailLink: characterBaseLink + "/grace-howard",
     star: "s",
@@ -152,6 +168,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Ben Bigger",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/ben_bigger.png",
     destailLink: characterBaseLink + "/ben-bigger",
     star: "a",
@@ -161,6 +178,7 @@ const characterCardsData: CharacterCardT[] = [
   },
   {
     name: "Anton Lvanov",
+    introduction:"",
     headshotUrl: characterImageBaseUrl + "/anton_lvanov.png",
     destailLink: characterBaseLink + "/anton-lvanov",
     star: "a",

@@ -24,21 +24,6 @@ export default function LandingpageHowItWorks() {
         title: t("landing.how_it_works.steps.s3.title"),
         description: t("landing.how_it_works.steps.s3.description"),
       },
-      {
-        id: t("landing.how_it_works.steps.s4.id"),
-        title: t("landing.how_it_works.steps.s4.title"),
-        description: t("landing.how_it_works.steps.s4.description"),
-      },
-      {
-        id: t("landing.how_it_works.steps.s5.id"),
-        title: t("landing.how_it_works.steps.s5.title"),
-        description: t("landing.how_it_works.steps.s5.description"),
-      },
-      {
-        id: t("landing.how_it_works.steps.s6.id"),
-        title: t("landing.how_it_works.steps.s6.title"),
-        description: t("landing.how_it_works.steps.s6.description"),
-      },
     ],
   };
 
@@ -59,9 +44,9 @@ export default function LandingpageHowItWorks() {
           {howItWorksData.howItWorks.map((howItWorks, index) => (
             <div
               key={index}
-              className="relative grid gap-4 rounded-[30px] border border-solid border-[#636262] px-8 pb-8 pt-16 md:px-10 md:pt-20"
+              className="relative grid gap-4 rounded-[30px] border border-solid border-primary px-8 pb-8 pt-16 md:px-10 md:pt-20"
             >
-              <div className="absolute -top-8 left-10 flex flex-col items-center justify-center rounded-xl border border-solid border-primary bg-background px-8 py-5 [box-shadow:rgb(243,_255,_144)_4px_4px]">
+              <div className="absolute -top-8 left-10 flex flex-col items-center justify-center rounded-xl border-2 border-solid border-primary bg-background px-8 py-5">
                 <p className="text-xl font-bold md:text-2xl">{howItWorks.id}</p>
               </div>
               <h3 className="text-xl font-semibold">{howItWorks.title}</h3>

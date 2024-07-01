@@ -20,7 +20,7 @@ export default function SectionHeader({
         </HeadingLevel>
       )}
       {text && (
-        <div className="mx-auto mt-2 max-w-xl text-lg font-light leading-tight opacity-70 sm:text-xl md:text-2xl">
+        <div className="mx-auto mt-2 max-w-screen-md text-lg font-light leading-tight opacity-70 sm:text-xl md:text-2xl">
           {text}
         </div>
       )}

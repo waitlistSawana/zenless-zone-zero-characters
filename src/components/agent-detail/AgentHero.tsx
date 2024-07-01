@@ -5,6 +5,7 @@ import { Button } from "../ui/button";
 import MaxWidthWrapper from "../wrappers/MaxWidthWrapper";
 import Image from "next/image";
 import { CharacterCardT } from "@/lib/types";
+import Link from "next/link";
 
 export default function AgentHero({
   characterData,
@@ -24,18 +25,20 @@ export default function AgentHero({
             </h1>
           </div>
           {/* introduce */}
-          <div className="flex max-w-md py-3 text-center md:text-start">
-            <p>
+          {/* <div className="mx-auto flex max-w-md py-3 md:mx-0">
+            <p className="text-center md:text-start">
               Lucy lastname (full name): a character of zenless zone zero, who
               is charming and powerful agent in new elio city.
             </p>
-          </div>
+          </div> */}
           {/* button to official website */}
           <div className="flex w-full justify-center py-4 md:justify-start">
-            <Button>
-              View on ZZZ official
-              <ArrowUpRight />
-            </Button>
+            <Link href={"https://zenless.hoyoverse.com"} target="_blank">
+              <Button>
+                View on ZZZ official
+                <ArrowUpRight />
+              </Button>
+            </Link>
           </div>
         </div>
 
@@ -52,7 +55,7 @@ export default function AgentHero({
       </div>
 
       {/* team */}
-      <div className="flex justify-center gap-3 py-1">
+      {/* <div className="flex justify-center gap-3 py-1">
         <div className="flex flex-wrap gap-1">
           <Button variant={"default"} className="">
             Teamate A
@@ -64,7 +67,7 @@ export default function AgentHero({
           <Button>Bamboo A</Button>
           <Button>Bamboo B</Button>
         </div>
-      </div>
+      </div> */}
     </MaxWidthWrapper>
   );
 }

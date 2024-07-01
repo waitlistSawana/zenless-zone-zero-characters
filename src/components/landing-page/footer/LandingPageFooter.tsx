@@ -31,7 +31,7 @@ export default function LandingPageFooter() {
                 </p>
 
                 {/* Open social links */}
-                <ul className="mt-8 flex gap-6">
+                {/* <ul className="mt-8 flex gap-6">
                   <li>
                     <a
                       href="#"
@@ -147,7 +147,7 @@ export default function LandingPageFooter() {
                       </svg>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
               {/* Footer Categories */}
               <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
@@ -155,8 +155,8 @@ export default function LandingPageFooter() {
                 <div></div>
                 <div></div>
                 <div>
-                  <p className="font-medium">Products</p>
-                  <ProductLinks />
+                  {/* <p className="font-medium">Products</p>
+                  <ProductLinks /> */}
                 </div>
               </div>
             </div>

@@ -20,6 +20,8 @@ export function LandingPageHeader() {
   const t = useI18n();
   // const { user, isSignedIn } = useUser();
 
+  const websiteName = "Z.Z.Z. Characters";
+
   return (
     <header
       id="landing-header"
@@ -46,7 +48,7 @@ export function LandingPageHeader() {
                 width={24}
                 height={24}
               />
-              <span className="">OnePage</span>
+              <span className="">{websiteName}</span>
             </Link>
             {/* {isSignedIn ? (
               <div className="flex items-center justify-between">
@@ -60,12 +62,12 @@ export function LandingPageHeader() {
                 <Button variant={"outline"}>sign-in</Button>
               </SignInButton>
             )} */}
-            <a
+            {/* <a
               href="/blog"
               className="text-muted-foreground transition-colors hover:text-foreground"
             >
               {t("landing.nav.blog")}
-            </a>
+            </a> */}
             {/* <a
               href="#landing-pricing"
               className="text-muted-foreground transition-colors hover:text-foreground"
@@ -87,7 +89,7 @@ export function LandingPageHeader() {
           </nav>
           <div className="flex-1" />
           <div className="flex gap-4">
-            {/* <DarkModeToggle /> */}
+            <DarkModeToggle />
             <LocaleSelector />
           </div>
         </SheetContent>
@@ -105,16 +107,16 @@ export function LandingPageHeader() {
             width={24}
             height={24}
           />
-          <span className="">OnePage</span>
+          <span className="">{websiteName}</span>
         </Link>
       </nav>
       <nav className="mx-auto flex flex-row items-center gap-5 text-sm font-medium lg:gap-6">
-        <a
+        {/* <a
           href="/blog"
           className="hidden text-muted-foreground transition-colors hover:text-foreground sm:block"
         >
           {t("landing.nav.blog")}
-        </a>
+        </a> */}
         {/* <a
           href="#landing-pricing"
           className="hidden sm:block text-muted-foreground transition-colors hover:text-foreground"
@@ -136,7 +138,7 @@ export function LandingPageHeader() {
       </nav>
       {/* <div className="flex-1" /> */}
       <div className="hidden gap-2 sm:flex">
-        {/* <DarkModeToggle /> */}
+        <DarkModeToggle />
         <LocaleSelector />
         {/* {isSignedIn ? (
           <div className="flex items-center justify-between">

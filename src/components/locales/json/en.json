@@ -7,40 +7,117 @@
   },
   "landing": {
     "hero": {
-      "title": "Build Something Amazing",
-      "tagline": "Must today firm from bag. Investment try cold a when capital. Everything wait person service."
+      "title": "Zenless Zone Zero Characters",
+      "tagline": "Dive into the thrilling world of Zenless Zone Zero, a post-apocalyptic action RPG where you fight alongside powerful Agents to reclaim the city from the Hollows. Explore our comprehensive character list to discover your perfect team!"
     },
     "cards": {
-      "heading": "Cards",
-      "text": "Apply should stuff quickly. Each born member name technology hot forget. Similar world far study woman.",
+      "heading": "Explore the Agents",
+      "text": "Zenless Zone Zero features a diverse cast of Agents, each with unique abilities and fighting styles. Explore our character list to discover their backstories, strengths, and weaknesses. Find the perfect team for your playstyle and conquer the Hollows!",
       "cards": {
         "card1": {
-          "heading": "Business Planning",
-          "text": "Question want reality fund. Decision environment despite nothing."
+          "heading": "Anby Demara",
+          "text": "Anby Demara is an A-rank agent known for her stunning abilities. She is a versatile fighter with exceptional combat skills, making her a reliable choice in various battle scenarios."
         },
         "card2": {
-          "heading": "Premium Support",
-          "text": "Almost end push. Picture truth performance detail concern."
+          "heading": "Billy Kid",
+          "text": "Billy Kid is an A-rank attack agent. Known for his sharpshooting skills, Billy excels in dealing high damage from a distance, making him a formidable opponent in ranged combat."
         },
         "card3": {
-          "heading": "Consulting",
-          "text": "Course smile middle road because about listen force."
+          "heading": "Koleda Belobog",
+          "text": "Koleda Belobog is an S-rank agent specializing in stunning enemies. With her powerful attacks and ability to incapacitate foes, she is a crucial asset in controlling the battlefield."
+        },
+        "card4": {
+          "heading": "Lucy",
+          "text": "Lucy is a versatile agent from the Sons of Calydon faction. Known for her agility and quick strikes, she excels in adapting to various combat situations, making her a valuable member of any team."
+        },
+        "card5": {
+          "heading": "Nekomata",
+          "text": "Nekomata, also known as Nekomiya Mana, is an S-rank agent specializing in attack. Her feline agility and sharp claws make her a deadly opponent in battle."
+        },
+        "card6": {
+          "heading": "Lycaon",
+          "text": "Lycaon is an S-rank agent with a specialty in stunning enemies. His powerful attacks and ability to incapacitate foes make him a crucial asset in any combat scenario."
+        },
+        "card7": {
+          "heading": "Soldier 11",
+          "text": "Soldier 11 is an S-rank agent known for her relentless attack capabilities. She excels in dealing continuous damage to enemies, overwhelming them with her firepower."
+        },
+        "card8": {
+          "heading": "Grace",
+          "text": "Grace is an S-rank agent specializing in anomaly attacks. Her unique abilities allow her to manipulate the battlefield, creating advantageous conditions for her team."
+        },
+        "card9": {
+          "heading": "Ellen",
+          "text": "Ellen is an S-rank agent with a focus on attack. Her precision and skill in combat make her a formidable adversary, capable of taking down enemies with ease."
+        },
+        "card10": {
+          "heading": "Rina",
+          "text": "Rina is an S-rank support agent. Her abilities to heal and buff her teammates make her an essential part of any team, ensuring their survival in tough battles."
+        },
+        "card11": {
+          "heading": "Zhu Yuan",
+          "text": "Zhu Yuan is an S-rank agent specializing in attack. Her powerful abilities and strategic mind make her a key player in any combat situation."
+        },
+        "card12": {
+          "heading": "Nicole",
+          "text": "Nicole is an A-rank support agent. She excels in providing buffs and support to her teammates, enhancing their combat effectiveness and ensuring their success."
+        },
+        "card13": {
+          "heading": "Anton",
+          "text": "Anton is an A-rank attack agent. His combat skills and tactical prowess make him a valuable member of any team, capable of dealing significant damage to enemies."
+        },
+        "card14": {
+          "heading": "Corin",
+          "text": "Corin is an A-rank attack agent. His relentless attacks and ability to disrupt enemy formations make him a crucial asset in battle."
+        },
+        "card15": {
+          "heading": "Ben Bigger",
+          "text": "Ben Bigger is an A-rank defense agent. His heavy armor and defensive capabilities make him the perfect choice for protecting his teammates and absorbing enemy attacks."
+        },
+        "card16": {
+          "heading": "Soukaku",
+          "text": "Soukaku is an A-rank support agent. His abilities to provide buffs and support to his team make him an invaluable member, enhancing their overall combat effectiveness."
+        },
+        "card17": {
+          "heading": "Piper Wheel",
+          "text": "Piper Wheel is a versatile agent known for her agility and quick strikes. She excels in fast-paced combat, making her a valuable member of any team."
+        }
+      }
+    },
+    "how_it_works": {
+      "title": "How to Use Our Character List",
+      "text": "Using our character list is simple and straightforward.  Follow these steps to find the perfect Agents for your team:",
+      "steps": {
+        "s1": {
+          "id": "1",
+          "title": "Browse by Faction",
+          "description": "Select a faction from the list to view all the Agents belonging to that group."
+        },
+        "s2": {
+          "id": "2",
+          "title": "Filter by Attribute",
+          "description": "Use the attribute filter to narrow down your search to Agents with specific elemental powers."
+        },
+        "s3": {
+          "id": "3",
+          "title": "Read Agent Details",
+          "description": "Click on an Agent's name to view their detailed information, including their backstory, abilities, and fighting style."
         }
       }
     },
     "features_leftright": {
       "heading": "Features",
-      "text": "features",
+      "text": "Zenless Zone Zero offers an array of exciting features that enhance your gameplay experience. Discover the unique aspects that make this game stand out.",
       "items": {
         "feature1": {
-          "heading": "Marketing Strategy",
-          "text": "Character big eat half stuff if. Technology share hot later. Tough improve kid politics.",
-          "image_alt": "an demo image in left"
+          "heading": "Diverse Character Roster",
+          "text": "Zenless Zone Zero boasts a diverse roster of characters, each with unique abilities and backstories. Whether you prefer close-quarters combat or long-range attacks, there's a character to suit your playstyle.",
+          "image_alt": "An image showcasing the diverse characters in Zenless Zone Zero"
         },
         "feature2": {
-          "heading": "Getting Started",
-          "text": "Answer four method rich fall everyone push. True remain training high ok head painting.",
-          "image_alt": "and demo image in right"
+          "heading": "Engaging Storyline",
+          "text": "Dive into a rich and engaging storyline set in the futuristic city of New Eridu. ",
+          "image_alt": "An image depicting the storyline and setting of Zenless Zone Zero"
         }
       }
     },
@@ -66,71 +143,36 @@
         }
       ]
     },
-    "how_it_works": {
-      "title": "How ChatTTS Works",
-      "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,purus sit amet luctus magna fringilla urna",
-      "steps": {
-        "s1": {
-          "id": "1",
-          "title": "Clone Project from GitHub",
-          "description": "Navigate to the open-source repository, choose the appropriate folder, and clone the remote repository to your local machine using git commands. Alternatively, you can choose to manually download it from GitHub."
-        },
-        "s2": {
-          "id": "2",
-          "title": "Install Reqirements",
-          "description": "Enter the folder where you downloaded the files in the terminal or command line, then run the following command to download the dependencies, which are listed in the requirements.txt file."
-        },
-        "s3": {
-          "id": "3",
-          "title": "Initialize ChatTTS",
-          "description": "Import the package, and declare the Python modules and instances we need."
-        },
-        "s4": {
-          "id": "4",
-          "title": "Declare Your Text",
-          "description": "Determine the text you need to generate speech for, and save it as 'texts'."
-        },
-        "s5": {
-          "id": "5",
-          "title": "Generate Audio",
-          "description": "Generate the speech."
-        },
-        "s6": {
-          "id": "6",
-          "title": "Save Wav File",
-          "description": "Save the speech to your local machine."
-        }
-      }
-    },
+
     "cta": {
-      "heading": "Latest Shirts",
-      "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore officia corporis quasi doloribus iure architecto quae voluptatum beatae excepturi dolores.",
-      "button": "Get Yours Today"
+      "heading": "Ready to Conquer the Hollows?",
+      "text": "Dive into the world of Zenless Zone Zero today! Explore our character list and build the ultimate team to reclaim the city.",
+      "button": "Explore Our Character List"
     },
     "faq2col": {
       "heading": "Frequently Asked Questions",
-      "text": "Cupiditate reprehenderit dignissimos maxime distinctio quia iste. Eum aliquam nulla voluptatum iure.",
+      "text": "We've compiled a list of frequently asked questions about Zenless Zone Zero and our character list.",
       "faqs": {
         "faq1": {
-          "question": "Move weight here just either attorney?",
-          "answer": "Officier journal personnage maintenant. Métier arracher cou secours voler air. Maintenant parole prévenir creuser froid distinguer affaire rocher."
+          "question": "What is Zenless Zone Zero?",
+          "answer": "Zenless Zone Zero is a post-apocalyptic action RPG set in a world where the city of New Eridu is constantly threatened by the Hollows, monstrous creatures from another dimension. Players take on the role of a 'Proxy,' a specialized combatant who fights alongside powerful Agents to reclaim the city."
         },
         "faq2": {
-          "question": "Pass role air campaign up gas service.",
-          "answer": "Time have local give cover mission. Throw where size size relationship. Her year wife. Stock type ten tough plant. Catch wear various. Section follow charge side member."
+          "question": "What are Agents?",
+          "answer": "Agents are playable characters in Zenless Zone Zero, each with unique abilities, fighting styles, and backstories. They are essential for defeating the Hollows and protecting the city."
         },
         "faq3": {
-          "question": "Move weight here just either attorney?",
-          "answer": "Officier journal personnage maintenant. Métier arracher cou secours voler air. Maintenant parole prévenir creuser froid distinguer affaire rocher."
+          "question": "How do I use your character list?",
+          "answer": "Our character list is designed to help you find the perfect Agents for your team. You can browse by faction, filter by attribute, and read detailed information on each Agent. It's a great resource for making informed decisions about your team composition."
         },
         "faq4": {
-          "question": "Move weight here just either attorney?",
-          "answer": "Officier journal personnage maintenant. Métier arracher cou secours voler air. Maintenant parole prévenir creuser froid distinguer affaire rocher."
+          "question": "Is your character list updated regularly?",
+          "answer": "Yes, our character list is updated regularly with the latest information on all playable Agents and upcoming characters. You can always rely on it for accurate data."
         }
       }
     },
     "footer": {
-      "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate quae nam molestias."
+      "text": "Zenless Zone Zero Characters: Your ultimate guide to Agents, abilities, and game tips."
     },
     "nav": {
       "blog": "Blog"

@@ -29,7 +29,7 @@ export default function CharaterPage({
   return (
     <div className="">
       <AgentHero characterData={characterData} />
-      <AgentIntroduce characterData={characterData} />
+      {/* <AgentIntroduce characterData={characterData} /> */}
     </div>
   );
 }
