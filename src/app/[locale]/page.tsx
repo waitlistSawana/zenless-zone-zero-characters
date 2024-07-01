@@ -12,9 +12,12 @@ import LandingPageCards from "@/components/landing-page/LandingPageCards";
 import LandingPageFeaturesLeftRight from "@/components/landing-page/features/LandingPageFeaturesLeftRight";
 import LandingPageFAQ2Col from "@/components/landing-page/faqs/LandingPageFAQ2Col";
 import LandingPageCTA from "@/components/landing-page/LandingPageCTA";
-import CharactersList from "@/components/characters/CharactersList";
+import CharactersList from "../../components/characters/CharactersList";
 
 export const metadata: Metadata = {
+  title: "Zenless Zero Zone Characters - Character List & Banner",
+  description:
+    "Discover Zenless Zero Zone characters! Explore abilities, backstories, and roles. Stay updated on releases and strategies. Perfect for new and seasoned players.",
   alternates: {
     canonical: process.env.NEXT_PUBLIC_BASE_URL,
     languages: {

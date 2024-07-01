@@ -16,12 +16,6 @@ import {
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Zenless Zero Zone Characters - Character List & Banner",
-  description:
-    "Discover Zenless Zero Zone characters! Explore abilities, backstories, and roles. Stay updated on releases and strategies. Perfect for new and seasoned players.",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
