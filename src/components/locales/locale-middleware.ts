@@ -4,6 +4,7 @@ import { NextRequest } from "next/server";
 // Supported locales
 export const LOCALES = [
   "en",
+  "zh",
   // 'es',
   // Add more locales here
 ] as const;

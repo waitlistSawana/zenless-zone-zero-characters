@@ -8,7 +8,7 @@ const languageLinks = LOCALES.map((local, index) => ({
 }));
 export default function LanguageFooter() {
   return (
-    <div className="my-1 flex flex-wrap items-center justify-center">
+    <div className="my-1 flex flex-wrap items-center justify-center gap-1">
       {languageLinks.map((l, i) => (
         <Link
           key={i}

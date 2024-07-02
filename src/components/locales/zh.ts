@@ -1,4 +1,4 @@
-import Json from "./json/en.json";
+import Json from "./json/zh.json";
 
 export default {
   ...Json,

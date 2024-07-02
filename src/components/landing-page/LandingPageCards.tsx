@@ -108,7 +108,7 @@ export default function LandingPageCards() {
           heading={cardData.heading}
           text={cardData.text}
         />
-        <details className="group my-2 [&_summary::-webkit-details-marker]:hidden">
+        {/* <details className="group my-2 [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex cursor-pointer items-center justify-center gap-1.5 rounded-lg">
             <h2 className="font-medium">View More</h2>
 
@@ -145,7 +145,7 @@ export default function LandingPageCards() {
               </div>
             )}
           </div>
-        </details>
+        </details> */}
       </MaxWidthWrapper>
     </SectionWrapper>
   );

@@ -10,6 +10,7 @@ export const {
   useCurrentLocale,
 } = createI18nClient({
   en: () => import("./en"),
+  zh: () => import("./zh"),
   // Add more locales here
   // es: () => import('./es'),
   // fr: () => import('./fr'),

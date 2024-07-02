@@ -1,8 +1,11 @@
 import { localeMiddleware } from "@/components/locales/locale-middleware";
 import { clerkMiddleware } from "@clerk/nextjs/server";
+import { NextRequest, NextResponse } from "next/server";
 
 // if not clerk
-const myMiddleware = (req: any) => {
+const myMiddleware = (req: NextRequest) => {
+  const { pathname } = req.nextUrl;
+
   if (req.url.match(/\/(api|trpc)(.*)/)) {
     return;
   }
