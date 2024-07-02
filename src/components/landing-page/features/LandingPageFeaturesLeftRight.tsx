@@ -9,7 +9,7 @@ import Link from "next/link";
 import { Button } from "../../ui/button";
 import { FeartureLandProps } from "@/lib/types";
 
-const imageUrlBase = "/image/banner_backgrounds/";
+const imageUrlBase = "https://image.zenlesszonezerocharacters.com/image/banner_backgrounds/";
 
 export default function LandingPageFeaturesLeftRight() {
   const t = useI18n();

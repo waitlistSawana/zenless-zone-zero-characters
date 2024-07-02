@@ -2,7 +2,8 @@ import { CharacterCardT } from "@/lib/types";
 import { PartiesDataT } from "@/lib/types";
 
 const characterBaseLink = "/agent";
-const characterImageBaseUrl = "/image/characters";
+const characterImageBaseUrl =
+  "https://image.zenlesszonezerocharacters.com/image/characters";
 const characterTypesBaseUrl = "/image/types";
 
 const characterCardsData: CharacterCardT[] = [
