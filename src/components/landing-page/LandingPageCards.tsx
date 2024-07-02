@@ -11,93 +11,93 @@ export default function LandingPageCards() {
   const cardData = {
     heading: t("landing.cards.heading"),
     text: t("landing.cards.text"),
-    cards: [
-      {
-        id: 1,
-        heading: t("landing.cards.cards.card1.heading"),
-        text: t("landing.cards.cards.card1.text"),
-      },
-      {
-        id: 2,
-        heading: t("landing.cards.cards.card2.heading"),
-        text: t("landing.cards.cards.card2.text"),
-      },
-      {
-        id: 3,
-        heading: t("landing.cards.cards.card3.heading"),
-        text: t("landing.cards.cards.card3.text"),
-      },
-      {
-        id: 4,
-        heading: t("landing.cards.cards.card4.heading"),
-        text: t("landing.cards.cards.card4.text"),
-      },
-      {
-        id: 5,
-        heading: t("landing.cards.cards.card5.heading"),
-        text: t("landing.cards.cards.card5.text"),
-      },
-      {
-        id: 6,
-        heading: t("landing.cards.cards.card6.heading"),
-        text: t("landing.cards.cards.card6.text"),
-      },
-      {
-        id: 7,
-        heading: t("landing.cards.cards.card7.heading"),
-        text: t("landing.cards.cards.card7.text"),
-      },
-      {
-        id: 8,
-        heading: t("landing.cards.cards.card8.heading"),
-        text: t("landing.cards.cards.card8.text"),
-      },
-      {
-        id: 9,
-        heading: t("landing.cards.cards.card9.heading"),
-        text: t("landing.cards.cards.card9.text"),
-      },
-      {
-        id: 10,
-        heading: t("landing.cards.cards.card10.heading"),
-        text: t("landing.cards.cards.card10.text"),
-      },
-      {
-        id: 11,
-        heading: t("landing.cards.cards.card11.heading"),
-        text: t("landing.cards.cards.card11.text"),
-      },
-      {
-        id: 12,
-        heading: t("landing.cards.cards.card12.heading"),
-        text: t("landing.cards.cards.card12.text"),
-      },
-      {
-        id: 13,
-        heading: t("landing.cards.cards.card13.heading"),
-        text: t("landing.cards.cards.card13.text"),
-      },
-      {
-        id: 14,
-        heading: t("landing.cards.cards.card14.heading"),
-        text: t("landing.cards.cards.card14.text"),
-      },
-      {
-        id: 15,
-        heading: t("landing.cards.cards.card15.heading"),
-        text: t("landing.cards.cards.card15.text"),
-      },
-      {
-        id: 16,
-        heading: t("landing.cards.cards.card16.heading"),
-        text: t("landing.cards.cards.card16.text"),
-      },
-      {
-        id: 17,
-        heading: t("landing.cards.cards.card17.heading"),
-        text: t("landing.cards.cards.card17.text"),
-      },
-    ],
+    // cards: [
+    //   {
+    //     id: 1,
+    //     heading: t("landing.cards.cards.card1.heading"),
+    //     text: t("landing.cards.cards.card1.text"),
+    //   },
+    //   {
+    //     id: 2,
+    //     heading: t("landing.cards.cards.card2.heading"),
+    //     text: t("landing.cards.cards.card2.text"),
+    //   },
+    //   {
+    //     id: 3,
+    //     heading: t("landing.cards.cards.card3.heading"),
+    //     text: t("landing.cards.cards.card3.text"),
+    //   },
+    //   {
+    //     id: 4,
+    //     heading: t("landing.cards.cards.card4.heading"),
+    //     text: t("landing.cards.cards.card4.text"),
+    //   },
+    //   {
+    //     id: 5,
+    //     heading: t("landing.cards.cards.card5.heading"),
+    //     text: t("landing.cards.cards.card5.text"),
+    //   },
+    //   {
+    //     id: 6,
+    //     heading: t("landing.cards.cards.card6.heading"),
+    //     text: t("landing.cards.cards.card6.text"),
+    //   },
+    //   {
+    //     id: 7,
+    //     heading: t("landing.cards.cards.card7.heading"),
+    //     text: t("landing.cards.cards.card7.text"),
+    //   },
+    //   {
+    //     id: 8,
+    //     heading: t("landing.cards.cards.card8.heading"),
+    //     text: t("landing.cards.cards.card8.text"),
+    //   },
+    //   {
+    //     id: 9,
+    //     heading: t("landing.cards.cards.card9.heading"),
+    //     text: t("landing.cards.cards.card9.text"),
+    //   },
+    //   {
+    //     id: 10,
+    //     heading: t("landing.cards.cards.card10.heading"),
+    //     text: t("landing.cards.cards.card10.text"),
+    //   },
+    //   {
+    //     id: 11,
+    //     heading: t("landing.cards.cards.card11.heading"),
+    //     text: t("landing.cards.cards.card11.text"),
+    //   },
+    //   {
+    //     id: 12,
+    //     heading: t("landing.cards.cards.card12.heading"),
+    //     text: t("landing.cards.cards.card12.text"),
+    //   },
+    //   {
+    //     id: 13,
+    //     heading: t("landing.cards.cards.card13.heading"),
+    //     text: t("landing.cards.cards.card13.text"),
+    //   },
+    //   {
+    //     id: 14,
+    //     heading: t("landing.cards.cards.card14.heading"),
+    //     text: t("landing.cards.cards.card14.text"),
+    //   },
+    //   {
+    //     id: 15,
+    //     heading: t("landing.cards.cards.card15.heading"),
+    //     text: t("landing.cards.cards.card15.text"),
+    //   },
+    //   {
+    //     id: 16,
+    //     heading: t("landing.cards.cards.card16.heading"),
+    //     text: t("landing.cards.cards.card16.text"),
+    //   },
+    //   {
+    //     id: 17,
+    //     heading: t("landing.cards.cards.card17.heading"),
+    //     text: t("landing.cards.cards.card17.text"),
+    //   },
+    // ],
   };
 
   return (
