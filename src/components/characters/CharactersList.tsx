@@ -59,7 +59,6 @@ export default function CharactersList() {
   // 筛选展示的内容
   useEffect(() => {
     const filteredData = handleFilterData(characterCardsData, filters);
-    console.log(filteredData, filters);
 
     if (filteredData.length === 0) {
       setFilteredCharacters(characterCardsData);
