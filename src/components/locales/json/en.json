@@ -12,77 +12,7 @@
     },
     "cards": {
       "heading": "Explore the Agents",
-      "text": "Zenless Zone Zero features a diverse cast of Agents, each with unique abilities and fighting styles. Explore our character list to discover their backstories, strengths, and weaknesses. Find the perfect team for your playstyle and conquer the Hollows!",
-      "cards": {
-        "card1": {
-          "heading": "Anby Demara",
-          "text": "Anby Demara is an A-rank agent known for her stunning abilities. She is a versatile fighter with exceptional combat skills, making her a reliable choice in various battle scenarios."
-        },
-        "card2": {
-          "heading": "Billy Kid",
-          "text": "Billy Kid is an A-rank attack agent. Known for his sharpshooting skills, Billy excels in dealing high damage from a distance, making him a formidable opponent in ranged combat."
-        },
-        "card3": {
-          "heading": "Koleda Belobog",
-          "text": "Koleda Belobog is an S-rank agent specializing in stunning enemies. With her powerful attacks and ability to incapacitate foes, she is a crucial asset in controlling the battlefield."
-        },
-        "card4": {
-          "heading": "Lucy",
-          "text": "Lucy is a versatile agent from the Sons of Calydon faction. Known for her agility and quick strikes, she excels in adapting to various combat situations, making her a valuable member of any team."
-        },
-        "card5": {
-          "heading": "Nekomata",
-          "text": "Nekomata, also known as Nekomiya Mana, is an S-rank agent specializing in attack. Her feline agility and sharp claws make her a deadly opponent in battle."
-        },
-        "card6": {
-          "heading": "Lycaon",
-          "text": "Lycaon is an S-rank agent with a specialty in stunning enemies. His powerful attacks and ability to incapacitate foes make him a crucial asset in any combat scenario."
-        },
-        "card7": {
-          "heading": "Soldier 11",
-          "text": "Soldier 11 is an S-rank agent known for her relentless attack capabilities. She excels in dealing continuous damage to enemies, overwhelming them with her firepower."
-        },
-        "card8": {
-          "heading": "Grace",
-          "text": "Grace is an S-rank agent specializing in anomaly attacks. Her unique abilities allow her to manipulate the battlefield, creating advantageous conditions for her team."
-        },
-        "card9": {
-          "heading": "Ellen",
-          "text": "Ellen is an S-rank agent with a focus on attack. Her precision and skill in combat make her a formidable adversary, capable of taking down enemies with ease."
-        },
-        "card10": {
-          "heading": "Rina",
-          "text": "Rina is an S-rank support agent. Her abilities to heal and buff her teammates make her an essential part of any team, ensuring their survival in tough battles."
-        },
-        "card11": {
-          "heading": "Zhu Yuan",
-          "text": "Zhu Yuan is an S-rank agent specializing in attack. Her powerful abilities and strategic mind make her a key player in any combat situation."
-        },
-        "card12": {
-          "heading": "Nicole",
-          "text": "Nicole is an A-rank support agent. She excels in providing buffs and support to her teammates, enhancing their combat effectiveness and ensuring their success."
-        },
-        "card13": {
-          "heading": "Anton",
-          "text": "Anton is an A-rank attack agent. His combat skills and tactical prowess make him a valuable member of any team, capable of dealing significant damage to enemies."
-        },
-        "card14": {
-          "heading": "Corin",
-          "text": "Corin is an A-rank attack agent. His relentless attacks and ability to disrupt enemy formations make him a crucial asset in battle."
-        },
-        "card15": {
-          "heading": "Ben Bigger",
-          "text": "Ben Bigger is an A-rank defense agent. His heavy armor and defensive capabilities make him the perfect choice for protecting his teammates and absorbing enemy attacks."
-        },
-        "card16": {
-          "heading": "Soukaku",
-          "text": "Soukaku is an A-rank support agent. His abilities to provide buffs and support to his team make him an invaluable member, enhancing their overall combat effectiveness."
-        },
-        "card17": {
-          "heading": "Piper Wheel",
-          "text": "Piper Wheel is a versatile agent known for her agility and quick strikes. She excels in fast-paced combat, making her a valuable member of any team."
-        }
-      }
+      "text": "Zenless Zone Zero features a diverse cast of Agents, each with unique abilities and fighting styles. Explore our character list to discover their backstories, strengths, and weaknesses. Find the perfect team for your playstyle and conquer the Hollows!"
     },
     "how_it_works": {
       "title": "How to Use Our Character List",
