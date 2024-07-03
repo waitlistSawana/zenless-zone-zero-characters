@@ -15,7 +15,7 @@ const characterCardsData: CharacterCardT[] = [
     star: "s",
     role: "Support",
     party: "Sons of Calydon",
-    type: "none",
+    type: "Fire",
   },
   {
     name: "Zhu Yuan",
@@ -126,16 +126,6 @@ const characterCardsData: CharacterCardT[] = [
     role: "",
     party: "Sons of Calydon",
     type: "Physical",
-  },
-  {
-    name: "Lucy",
-    introduction: "",
-    headshotUrl: characterImageBaseUrl + "/lucy.png",
-    destailLink: characterBaseLink + "/lucy",
-    star: "s",
-    role: "Support",
-    party: "Sons of Calydon",
-    type: "Fire",
   },
   {
     name: "Hoshimi Miyabi",

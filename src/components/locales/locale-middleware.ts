@@ -5,6 +5,7 @@ import { NextRequest } from "next/server";
 export const LOCALES = [
   "en",
   "zh",
+  "jp",
   // 'es',
   // Add more locales here
 ] as const;
@@ -12,7 +13,7 @@ export const LOCALES = [
 const I18nMiddleware = createI18nMiddleware({
   locales: LOCALES,
   defaultLocale: "en",
-  urlMappingStrategy: "rewriteDefault",
+  urlMappingStrategy: "redirect",
 });
 
 export function localeMiddleware(request: NextRequest) {

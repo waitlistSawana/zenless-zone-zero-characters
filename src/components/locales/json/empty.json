@@ -1,0 +1,116 @@
+{
+  "theme": {
+    "toggle_theme": "Toggle theme",
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System"
+  },
+  "landing": {
+    "hero": {
+      "title": "",
+      "tagline": ""
+    },
+    "cards": {
+      "heading": "",
+      "text": ""
+    },
+    "how_it_works": {
+      "title": "",
+      "text": "",
+      "steps": {
+        "s1": {
+          "id": "1",
+          "title": "",
+          "description": ""
+        },
+        "s2": {
+          "id": "2",
+          "title": "",
+          "description": ""
+        },
+        "s3": {
+          "id": "3",
+          "title": "",
+          "description": ""
+        }
+      }
+    },
+    "features_leftright": {
+      "heading": "",
+      "text": "",
+      "items": {
+        "feature1": {
+          "heading": "",
+          "text": "",
+          "image_alt": ""
+        },
+        "feature2": {
+          "heading": "",
+          "text": "",
+          "image_alt": ""
+        }
+      }
+    },
+    "features": {
+      "title": "",
+      "description": "",
+      "items": [
+        {
+          "title": "",
+          "description": ""
+        },
+        {
+          "title": "",
+          "description": ""
+        },
+        {
+          "title": "",
+          "description": ""
+        },
+        {
+          "title": "",
+          "description": ""
+        }
+      ]
+    },
+    "cta": {
+      "heading": "",
+      "text": "",
+      "button": ""
+    },
+    "faq2col": {
+      "heading": "",
+      "text": "",
+      "faqs": {
+        "faq1": {
+          "question": "",
+          "answer": ""
+        },
+        "faq2": {
+          "question": "",
+          "answer": ""
+        },
+        "faq3": {
+          "question": "",
+          "answer": ""
+        },
+        "faq4": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    },
+    "footer": {
+      "text": ""
+    },
+    "nav": {
+      "blog": "Blog"
+    }
+  },
+  "blog": {
+    "homepage": {
+      "h1": "",
+      "text": ""
+    }
+  }
+}
